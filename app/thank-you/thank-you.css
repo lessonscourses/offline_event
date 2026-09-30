@@ -25,6 +25,10 @@
 .ty-event-title{font-size:clamp(24px,3vw,30px);font-weight:700;letter-spacing:-.03em;line-height:1.15;margin:10px 0 16px}
 .ty-event-date{display:flex;align-items:center;gap:10px;font-weight:600}
 .ty-event-date svg{width:20px;color:var(--gold-hi)}
+.ty-zones{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0}
+.ty-zones div{border-radius:16px;padding:12px 14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1)}
+.ty-zones strong{display:block;font-size:17px}
+.ty-zones span{font-size:12.5px;color:rgba(255,255,255,.6)}
 .ty-hint{font-size:14px;color:rgba(255,255,255,.7);margin-bottom:14px}
 .ty-actions{display:flex;flex-wrap:wrap;gap:10px}
 .ty-btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;font-weight:600;font-size:14.5px;transition:transform .2s}
@@ -49,12 +53,13 @@
 .ty-back{justify-self:center;font-weight:600;font-size:14.5px;color:var(--ink-2)}
 .ty-back:hover{color:var(--ink)}
 @keyframes tyUp{from{opacity:0;transform:translateY(16px)}}
-@media (max-width:640px){.ty{padding-top:100px}.ty-films{grid-template-columns:1fr}@media (prefers-reduced-motion:reduce){.ty *{animation:none!important}}
+@media (max-width:640px){.ty{padding-top:100px}.ty-films{grid-template-columns:1fr}.ty-zones strong{font-size:15px}}
+@media (prefers-reduced-motion:reduce){.ty *{animation:none!important}}
 .ty-event .ty-event-title{color:#fff}
 .ty-event .ty-event-kicker{color:rgba(255,255,255,.65)}
 .ty-event .ty-hint{color:rgba(255,255,255,.72)}
 
-.ty-meta{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:18px 0 16px}
+.ty-meta{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 16px}
 .ty-meta span{border-radius:16px;padding:12px 14px;background:rgba(255,255,255,.06);font-size:14px;line-height:1.45;color:rgba(255,255,255,.85)}
 .ty-meta small{display:block;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-hi);margin-bottom:4px}
 @media (max-width:640px){.ty-meta{grid-template-columns:1fr}}
