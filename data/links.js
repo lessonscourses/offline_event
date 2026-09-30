@@ -3,10 +3,10 @@
 export const SERIES_URL = 'https://meetings.example.com'; // TODO: domain of the series landing
 
 export const CITY_URL = {
-  'san-francisco': 'https://sanfrancisco.example.com', // TODO
-  'london': 'https://london.example.com', // TODO
-  'amsterdam': 'https://amsterdam.example.com', // TODO
   'singapore': 'https://singapore.example.com', // TODO
+  'dubai': 'https://dubai.example.com', // TODO
+  'abu-dhabi': 'https://abudhabi.example.com', // TODO
+  'riyadh': 'https://riyadh.example.com', // TODO
 };
 
 export const MAIN_URL = 'https://website-structure-production.up.railway.app';

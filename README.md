@@ -21,4 +21,6 @@ TODO: real schedule (current one is a draft), guest investor, venue, pricing, fo
 
 - "One network · many cities" block: animated flight arcs from all Legends cities into Singapore (`components/CityNetwork.jsx`, reusable with `current="<city>"`).
 - "Who will be there": guest profiles (edit in `app/page.jsx`).
-- Date: Thursday, 8 October 2026, 18:30 SGT (`data/cities.js`, entry `singapore`). Next cities: San Francisco 15, London 22, Amsterdam 29 October.
+- Plan: Legends 10 — Q4 2026 (working plan 28.09.2026). Singapore = gathering 01, Thu 8 Oct 2026, anchor: Milken Institute Asia Summit (7–9 Oct).
+- Next in October: Dubai 14 (SuperReturn Middle East), Abu Dhabi 21 (Campden Global Owners & FO Congress), Riyadh 28 (FII10).
+- Room: 8–10 strong investors, hard cap 12.

@@ -1,38 +1,5 @@
-// Legends Investor Meetings. utc = start time (18:30 local) in UTC for the countdown.
+// Legends 10 — Q4 2026 plan (28.09.2026): October gatherings. utc = 18:30 local start, for countdowns.
 export const CITIES = [
-  {
-    "key": "san-francisco",
-    "city": "San Francisco",
-    "short": "SF",
-    "day": "15",
-    "dow": "Thu",
-    "date": "Thursday, 15 October 2026",
-    "tz": "America/Los_Angeles",
-    "utc": "2026-10-16T01:30:00Z",
-    "area": "Bay Area"
-  },
-  {
-    "key": "london",
-    "city": "London",
-    "short": "LDN",
-    "day": "22",
-    "dow": "Thu",
-    "date": "Thursday, 22 October 2026",
-    "tz": "Europe/London",
-    "utc": "2026-10-22T17:30:00Z",
-    "area": "Central London"
-  },
-  {
-    "key": "amsterdam",
-    "city": "Amsterdam",
-    "short": "AMS",
-    "day": "29",
-    "dow": "Thu",
-    "date": "Thursday, 29 October 2026",
-    "tz": "Europe/Amsterdam",
-    "utc": "2026-10-29T17:30:00Z",
-    "area": "City centre"
-  },
   {
     "key": "singapore",
     "city": "Singapore",
@@ -43,5 +10,38 @@ export const CITIES = [
     "tz": "Asia/Singapore",
     "utc": "2026-10-08T10:30:00Z",
     "area": "Singapore"
+  },
+  {
+    "key": "dubai",
+    "city": "Dubai",
+    "short": "DXB",
+    "day": "14",
+    "dow": "Wed",
+    "date": "Wednesday, 14 October 2026",
+    "tz": "Asia/Dubai",
+    "utc": "2026-10-14T14:30:00Z",
+    "area": "Dubai"
+  },
+  {
+    "key": "abu-dhabi",
+    "city": "Abu Dhabi",
+    "short": "AUH",
+    "day": "21",
+    "dow": "Wed",
+    "date": "Wednesday, 21 October 2026",
+    "tz": "Asia/Dubai",
+    "utc": "2026-10-21T14:30:00Z",
+    "area": "Abu Dhabi"
+  },
+  {
+    "key": "riyadh",
+    "city": "Riyadh",
+    "short": "RUH",
+    "day": "28",
+    "dow": "Wed",
+    "date": "Wednesday, 28 October 2026",
+    "tz": "Asia/Riyadh",
+    "utc": "2026-10-28T15:30:00Z",
+    "area": "Riyadh"
   }
 ];

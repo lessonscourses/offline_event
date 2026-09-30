@@ -1,14 +1,17 @@
 // One Legends network across cities: animated flight arcs on a dotted world map.
 // current = key of this landing's city (arcs fly into it); without it, arcs fly out from Dubai to every city.
 const W = 640, H = 300;
-const LON0 = -140, LON1 = 122, LAT0 = 62, LAT1 = -6;
+const LON0 = -95, LON1 = 118, LAT0 = 62, LAT1 = -6;
 const px = (lon, lat) => [((lon - LON0) / (LON1 - LON0)) * W, ((LAT0 - lat) / (LAT0 - LAT1)) * H];
 
 export const NODES = {
-  'san-francisco': { name: 'San Francisco', lon: -122.4, lat: 37.8, lx: 14, ly: 22 },
-  london: { name: 'London', lon: -0.1, lat: 51.5, lx: -30, ly: 20 },
-  amsterdam: { name: 'Amsterdam', lon: 4.9, lat: 52.4, lx: 34, ly: -12 },
-  dubai: { name: 'Dubai', lon: 55.3, lat: 25.2, lx: 0, ly: 22 },
+  'new-york': { name: 'New York', lon: -74, lat: 40.7, lx: -8, ly: 22 },
+  'palm-beach': { name: 'Palm Beach', lon: -80.0, lat: 26.7, lx: 0, ly: 22 },
+  london: { name: 'London', lon: -0.1, lat: 51.5, lx: -26, ly: -10 },
+  zurich: { name: 'Zurich', lon: 8.5, lat: 47.4, lx: 24, ly: 18 },
+  riyadh: { name: 'Riyadh', lon: 46.7, lat: 24.7, lx: -24, ly: 22 },
+  dubai: { name: 'Dubai', lon: 55.3, lat: 25.2, lx: 10, ly: -12 },
+  'abu-dhabi': { name: 'Abu Dhabi', lon: 54.4, lat: 24.4, lx: 22, ly: 24 },
   singapore: { name: 'Singapore', lon: 103.8, lat: 1.35, lx: 0, ly: 22 },
 };
 
