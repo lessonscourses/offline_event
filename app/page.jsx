@@ -43,9 +43,12 @@ export default function Page() {
       <section className="sec" id="idea"><div className="wrap concept">
        <div className="pics rv"><div className="p1" data-speed="-.06" style={{backgroundImage:"url(/gallery/evening-1.jpg)"}}></div><div className="p2" data-speed=".1" style={{backgroundImage:"url(/gallery/evening-2.jpg)"}}></div></div>
        <div>
-        <span className="kicker rv">The idea</span>
-        <p className="big rv d1" style={{marginTop:"16px"}}>One evening where everyone in the venue is there for a reason - and you know it before you sit down.</p>
-        <p className="lead rv d2">Relevance over reach: we read what you invest in, match you with the right people and let the evening do the rest.</p>
+        <span className="kicker rv">Why this dinner</span>
+        <h2 className="big rv d1" style={{marginTop:"16px"}}>10 investors. One private evening</h2>
+        <p className="lead rv d2">Every guest is selected because they actively invest or allocate capital. No mixed audience, no service providers and no people coming to pitch.</p>
+        <p className="lead rv d2">During Milken Institute Asia Summit week, this is one focused evening to spend with peers, exchange perspectives, discuss deals and build relationships in a relaxed private setting.</p>
+        <p className="accent-line rv d3">No stage. No pitches. No brokers. No random networking.</p>
+        <div className="pill-row rv d3"><span>Private Investors</span><span>Family Offices</span><span>CIOs</span><span>LPs / Allocators</span><span>Fund Partners</span><span>Institutional Investors</span></div>
        </div>
       </div></section>
 
