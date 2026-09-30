@@ -1111,3 +1111,5 @@ body{overflow-x:hidden}
 .foot{grid-template-columns:1.6fr 1fr 1fr}
 @media (max-width:1040px){.foot{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.foot{grid-template-columns:1fr;gap:26px}.foot>div:first-child,.foot .legal{grid-column:1/-1}.foot .legal{flex-direction:column;gap:10px}}
+
+.guests-note{margin-top:22px;text-align:center;font-size:14px;font-weight:600;letter-spacing:.02em;color:var(--ink-3)}

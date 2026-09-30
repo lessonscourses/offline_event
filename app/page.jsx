@@ -67,13 +67,14 @@ export default function Page() {
       {/* ===== Who will be there ===== */}
       <section className="sec" id="guests" style={{paddingTop:"0"}}><div className="wrap">
        <div className="row-head"><div className="sec-head rv"><span className="kicker">Who will be there</span><h2 className="h2">The people you can expect to meet</h2></div>
-       <p className="lead rv" style={{maxWidth:"400px",fontSize:"16px"}}>Investors only, reviewed personally - 10 active investors, never more than 12.</p></div>
+       <div className="rv" style={{maxWidth:"440px"}}><p className="lead" style={{fontSize:"16px"}}>Investor-only. Every guest is personally reviewed and confirmed.</p><p className="lead" style={{fontSize:"16px",marginTop:"10px"}}>The gathering is limited to 10 active investors - people who deploy or allocate capital through their own investments, family offices, funds or institutions.</p></div></div>
        <div className="tables4">
-        <div className="tbl rv"><span className="tbl-n">Family offices</span><h3>Looking for direct deals and co-investors</h3><p>Investing their own capital and looking for trusted partners.</p></div>
-        <div className="tbl rv d1"><span className="tbl-n">CIOs & institutions</span><h3>Looking for managers and co-investment</h3><p>Allocators building exposure across Asia and beyond.</p></div>
-        <div className="tbl rv d2"><span className="tbl-n">Fund partners & LPs</span><h3>Looking for capital partners and deal flow</h3><p>GPs who raise and lead - and the LPs behind them.</p></div>
-        <div className="tbl rv d3"><span className="tbl-n">Private investors</span><h3>Looking for the right people around a deal</h3><p>Deploying their own capital, relevance over reach.</p></div>
+        <div className="tbl rv"><span className="tbl-n" style={{textTransform:"none"}}>FAMILY OFFICES</span><h3>Principals & investment teams</h3><p>Family office decision-makers investing family capital across direct deals, funds and private markets.</p></div>
+        <div className="tbl rv d1"><span className="tbl-n" style={{textTransform:"none"}}>CIOs & INSTITUTIONS</span><h3>Capital allocators</h3><p>CIOs and senior investment professionals responsible for allocating institutional capital.</p></div>
+        <div className="tbl rv d2"><span className="tbl-n" style={{textTransform:"none"}}>FUND PARTNERS & LPs</span><h3>GPs & allocators</h3><p>Fund partners actively deploying capital, alongside LPs allocating to managers and private-market opportunities.</p></div>
+        <div className="tbl rv d3"><span className="tbl-n" style={{textTransform:"none"}}>PRIVATE INVESTORS</span><h3>Investing their own capital</h3><p>Active private investors and investor-operators making direct investment decisions with their own capital.</p></div>
        </div>
+       <p className="guests-note rv">No founders. No brokers. No service providers. Investors only.</p>
       </div></section>
 
       <section className="sec" id="schedule" style={{paddingTop:"0"}}><div className="wrap sched">
