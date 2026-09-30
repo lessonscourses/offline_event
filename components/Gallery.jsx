@@ -4,7 +4,7 @@ export default function Gallery() {
     <>
       <section className="sec" id="gallery" style={{paddingTop:"0"}}><div className="wrap">
       <div className="row-head"><div className="sec-head rv"><span className="kicker">From our evenings in Dubai</span><h2 className="h2">80+ private gatherings. This is what they feel like.</h2></div>
-      <p className="lead rv" style={{maxWidth:"380px",fontSize:"16px"}}>Tap any photo or the film to open it full screen.</p></div>
+      <p className="lead rv" style={{maxWidth:"380px",fontSize:"16px"}}>Tap to open full screen.</p></div>
       <div className="mgal rv">
        <button className="v" data-lb="https://belegends.club/assets/site-loop.webm" data-type="video" aria-label="Play film">
          <video autoPlay muted loop playsInline poster="https://belegends.club/assets/site-loop-poster.jpg"><source src="https://belegends.club/assets/site-loop.webm" type="video/webm" /></video>

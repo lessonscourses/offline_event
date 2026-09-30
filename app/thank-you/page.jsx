@@ -19,7 +19,7 @@ export default function ThankYou() {
         <HowItRuns />
         <InviteColleague />
         <LookInside />
-        <p className="ty-fine">A request does not guarantee a seat. Each request is reviewed individually and confirmed by a Legends manager. The evening is capped at 12 guests, and the final guest list locks 24 hours before the start. The venue address is shared with confirmed guests only.</p>
+        <p className="ty-fine">A request does not guarantee a seat. Capped at 12 guests; the list locks 24 hours before. The venue is shared with confirmed guests only.</p>
         <a className="ty-back" href="/">← Back to the Singapore page</a>
       </div>
     </div>

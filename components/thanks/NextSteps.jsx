@@ -1,7 +1,7 @@
 const STEPS = [
-  'Within 24 hours, a Legends manager contacts you by phone or email to confirm your request.',
-  'We confirm your seat and ask who you would like to meet — so your introductions are set up before you arrive.',
-  'Before the evening you receive the venue address, the final schedule and the people we think you should meet.',
+  'Within 24 hours, a manager contacts you to confirm your request.',
+  'We confirm your seat and ask who you want to meet.',
+  'Before the evening: the venue address, schedule and your matches.',
 ];
 
 export default function NextSteps() {

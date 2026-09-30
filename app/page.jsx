@@ -21,7 +21,7 @@ export default function Page() {
         <div className="crumbs rv" style={{color:"rgba(255,255,255,.6)"}}><a {...eventLink("calendar")}>Investor Meetings</a><span>/</span><span>Singapore</span></div>
         <span className="kicker rv" style={{display:"block",marginTop:"22px"}}>Legends Offline · Q4 2026 · Gathering 01 of 12</span>
         <h1 className="rv d1">Singapore.<br />An evening for investors.</h1>
-        <p className="lead rv d2">The first of twelve Legends gatherings this quarter takes place in Singapore, during the week of the Milken Institute Asia Summit. One small evening for 8–10 strong investors — matched before you arrive, introduced only when both sides agree.</p>
+        <p className="lead rv d2">The first of twelve Legends gatherings this quarter, in the week of the Milken Institute Asia Summit. One evening for 8–10 strong investors — matched before you arrive.</p>
         <div className="c-row">
          <div>
           <div className="c-facts rv d2">
@@ -44,8 +44,8 @@ export default function Page() {
        <div className="pics rv"><div className="p1" data-speed="-.06" style={{backgroundImage:"url(https://belegends.club/assets/block-6-1.jpg)"}}></div><div className="p2" data-speed=".1" style={{backgroundImage:"url(https://belegends.club/assets/block-6-4.jpg)"}}></div></div>
        <div>
         <span className="kicker rv">The idea</span>
-        <p className="big rv d1" style={{marginTop:"16px"}}>One evening in Singapore where every person in the venue is there for a reason — and you know that reason before you sit down.</p>
-        <p className="lead rv d2">It is the same principle as the Legends network: relevance over reach. We read what you invest in and what you are looking for, match you with the right people, and let the evening do the rest.</p>
+        <p className="big rv d1" style={{marginTop:"16px"}}>One evening where everyone in the venue is there for a reason — and you know it before you sit down.</p>
+        <p className="lead rv d2">Relevance over reach: we read what you invest in, match you with the right people and let the evening do the rest.</p>
         <div className="pill-row rv d3"><span>Family offices</span><span>CIOs</span><span>Institutional investors</span><span>LPs</span><span>Fund partners</span><span>Private investors</span></div>
        </div>
       </div></section>
@@ -56,8 +56,7 @@ export default function Page() {
         <div className="cor-text">
          <span className="kicker">One network · many cities</span>
          <h2 className="h2">Fly in for the evening.</h2>
-         <p className="lead">This quarter Legends meets in twelve gatherings across Singapore, Dubai, Abu Dhabi, Riyadh, New York, Zurich, London and Palm Beach. If you are in Singapore for the Milken Institute Asia Summit, or can fly in, this is an evening built only for investors: no pitches, no vendors, no side programme. Legends hosts it independently of the summit.</p>
-         <p className="lead" style={{marginTop:"14px"}}>Tell us what you invest in and who you want to meet. We set up your matches before you arrive.</p>
+         <p className="lead">Twelve gatherings this quarter — Singapore, Dubai, Abu Dhabi, Riyadh, New York, Zurich, London and Palm Beach. In Singapore for the Milken Asia Summit, or able to fly in? This evening is for investors only: no pitches, no vendors. Legends hosts it independently of the summit.</p>
         </div>
         <div className="cor-map"><CityNetwork current="singapore" /></div>
        </div>
@@ -66,20 +65,20 @@ export default function Page() {
       {/* ===== Who will be there ===== */}
       <section className="sec" id="guests" style={{paddingTop:"0"}}><div className="wrap">
        <div className="row-head"><div className="sec-head rv"><span className="kicker">Who will be there</span><h2 className="h2">The people you can expect to meet.</h2></div>
-       <p className="lead rv" style={{maxWidth:"400px",fontSize:"16px"}}>Investor-only. Every guest is reviewed and confirmed personally — 8–10 people, never more than 12. Before the evening you get the names of the people we think you should meet, and why.</p></div>
+       <p className="lead rv" style={{maxWidth:"400px",fontSize:"16px"}}>Investors only, reviewed personally — 8–10 people, never more than 12.</p></div>
        <div className="tables4">
-        <div className="tbl rv"><span className="tbl-n">Family offices</span><h3>Looking for direct deals and co-investors</h3><p>Principals and investment teams who invest their own capital and want trusted partners around a deal.</p></div>
-        <div className="tbl rv d1"><span className="tbl-n">CIOs & institutions</span><h3>Looking for managers and co-investment</h3><p>Chief investment officers and institutional allocators building exposure across Asia and beyond.</p></div>
-        <div className="tbl rv d2"><span className="tbl-n">Fund partners & LPs</span><h3>Looking for capital partners and deal flow</h3><p>GPs who raise, lead and share allocations — and the LPs who back them.</p></div>
-        <div className="tbl rv d3"><span className="tbl-n">Private investors</span><h3>Looking for the right people around a deal</h3><p>Global investors who deploy their own capital and want relevance over reach.</p></div>
+        <div className="tbl rv"><span className="tbl-n">Family offices</span><h3>Looking for direct deals and co-investors</h3><p>Investing their own capital and looking for trusted partners.</p></div>
+        <div className="tbl rv d1"><span className="tbl-n">CIOs & institutions</span><h3>Looking for managers and co-investment</h3><p>Allocators building exposure across Asia and beyond.</p></div>
+        <div className="tbl rv d2"><span className="tbl-n">Fund partners & LPs</span><h3>Looking for capital partners and deal flow</h3><p>GPs who raise and lead — and the LPs behind them.</p></div>
+        <div className="tbl rv d3"><span className="tbl-n">Private investors</span><h3>Looking for the right people around a deal</h3><p>Deploying their own capital, relevance over reach.</p></div>
        </div>
       </div></section>
 
       <section className="sec" id="schedule" style={{paddingTop:"0"}}><div className="wrap sched">
        <div className="sticky-head sec-head rv"><span className="kicker">Schedule of the evening</span><h2 className="h2">Four hours, planned so nothing is left to chance.</h2>
-       <p className="lead">Draft schedule — the final agenda and the guest investor are shared with confirmed attendees.</p>
+       <p className="lead">Draft — the final agenda and guest investor go to confirmed guests.</p>
        <a className="btn gold" href="/#invite" style={{alignSelf:"flex-start",marginTop:"10px"}}>Request an invite <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
-       <div className="sched-list"><span className="prog"></span><ol><li className=""><time>18:30</time><div className="card"><span className="kicker">Arrival</span><h3>Welcome drinks and first introductions</h3><p>Name cards with your focus. The team introduces you to your first match within minutes.</p></div></li><li className=""><time>19:00</time><div className="card"><span className="kicker">Opening</span><h3>Why we are here</h3><p>A short welcome from the Legends team: who is in the venue tonight and how the evening works.</p></div></li><li className="key"><time>19:15</time><div className="card"><span className="kicker">Conversation</span><h3>Fireside with a guest investor</h3><p>One investor, one real decision — what they saw, what they did and what it cost. Guest announced to confirmed attendees.</p></div></li><li className=""><time>20:00</time><div className="card"><span className="kicker">Dinner</span><h3>Tables seated by thesis</h3><p>Dinner with investors who share your sector, stage or geography. A seat change between courses.</p></div></li><li className="key"><time>21:15</time><div className="card"><span className="kicker">Introductions</span><h3>Curated one-to-ones</h3><p>The team connects the pairs matched in advance — with a clear reason for each introduction.</p></div></li><li className=""><time>22:00</time><div className="card"><span className="kicker">Closed circle</span><h3>Late conversation</h3><p>A smaller circle for those who stay. Candid, off the record.</p></div></li><li className=""><time>22:30</time><div className="card"><span className="kicker">After</span><h3>Follow-ups continue online</h3><p>Next morning you get your introductions in writing, and matching continues in the network.</p></div></li></ol></div>
+       <div className="sched-list"><span className="prog"></span><ol><li className=""><time>18:30</time><div className="card"><span className="kicker">Arrival</span><h3>Welcome drinks and first introductions</h3><p>Name cards with your focus, and your first match within minutes.</p></div></li><li className=""><time>19:00</time><div className="card"><span className="kicker">Opening</span><h3>Why we are here</h3><p>Who is here tonight and how the evening works.</p></div></li><li className="key"><time>19:15</time><div className="card"><span className="kicker">Conversation</span><h3>Fireside with a guest investor</h3><p>One investor, one real decision — what they saw, did and what it cost.</p></div></li><li className=""><time>20:00</time><div className="card"><span className="kicker">Dinner</span><h3>Tables seated by thesis</h3><p>Tables set by sector, stage or geography. A seat change between courses.</p></div></li><li className="key"><time>21:15</time><div className="card"><span className="kicker">Introductions</span><h3>Curated one-to-ones</h3><p>Pairs matched in advance, each with a clear reason.</p></div></li><li className=""><time>22:00</time><div className="card"><span className="kicker">Closed circle</span><h3>Late conversation</h3><p>A smaller circle for those who stay. Off the record.</p></div></li><li className=""><time>22:30</time><div className="card"><span className="kicker">After</span><h3>Follow-ups continue online</h3><p>Your introductions in writing the next morning.</p></div></li></ol></div>
       </div></section>
 
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap">
@@ -87,9 +86,9 @@ export default function Page() {
         <span className="kicker">Matched before you arrive</span>
         <h2 className="h2">You walk in knowing who to talk to.</h2>
         <div className="pm-grid">
-         <div className="pm"><span className="n">01 · Before</span><h4>Share your context</h4><p>Thesis, ticket, sectors and who you want to meet — in your invite request.</p></div>
-         <div className="pm"><span className="n">02 · The day before</span><h4>Get your matches</h4><p>The team sends the people we think you should meet, and why.</p></div>
-         <div className="pm"><span className="n">03 · On the night</span><h4>Meet them in person</h4><p>We make the introductions. Contacts are shared only when both sides agree.</p></div>
+         <div className="pm"><span className="n">01 · Before</span><h4>Share your context</h4><p>Thesis, ticket and who you want to meet — in your request.</p></div>
+         <div className="pm"><span className="n">02 · The day before</span><h4>Get your matches</h4><p>The people you should meet, and why.</p></div>
+         <div className="pm"><span className="n">03 · On the night</span><h4>Meet them in person</h4><p>We introduce you. Contacts are shared only by mutual consent.</p></div>
         </div>
        </div>
       </div></section>
@@ -97,7 +96,7 @@ export default function Page() {
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap">
        <div className="host rv"><img src="/brand/yanis.webp" alt="Yanis Chkhatval" />
         <div><span className="kicker">Your host</span><h3>Yanis Chkhatval</h3><p style={{fontWeight:"600",color:"var(--gold-d)",marginBottom:"10px"}}>Founder of Legends</p>
-        <p>Legends started in Dubai with 80+ private gatherings and 1,300+ matchmakings. Now the format travels between cities — with the same standard for who is in the venue.</p></div></div>
+        <p>80+ private gatherings and 1,300+ matchmakings in Dubai. Now the format travels — with the same standard for who is in the venue.</p></div></div>
       </div></section>
 
       <Gallery />
