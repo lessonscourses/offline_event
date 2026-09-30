@@ -1,5 +1,4 @@
 import CityNetwork from '@/components/CityNetwork';
-import { CITIES } from '@/data/cities';
 import { eventLink } from '@/data/links';
 import Faq from '@/components/Faq';
 import Gallery from '@/components/Gallery';
@@ -7,7 +6,6 @@ import InviteForm from '@/components/InviteForm';
 
 export const metadata = { title: "Legends Investor Meeting - Singapore", description: "Private networking dinner for investors in Singapore, 8 October 2026." };
 
-const CITY = CITIES.find((c) => c.key === 'singapore');
 
 export default function Page() {
   return (
@@ -19,22 +17,16 @@ export default function Page() {
        <div className="wrap">
         <span className="kicker rv" style={{display:"block"}}>Singapore · 8 October 2026</span>
         <h1 className="rv d1">Private Networking Dinner <br className="br-d" />for Investors</h1>
-        <p className="lead rv d2">Meet potential co-investors, discover deals and explore additional capital for your next opportunity.</p>
-        <p className="lead rv d2" style={{marginTop:"12px"}}>Build new partnerships with like-minded investors in a relaxed, private setting.</p>
-        <div className="c-row">
-         <div>
-          <div className="c-facts rv d2">
-           <span>Date<b>8 October 2026</b></span>
-           <span>Time<b>17:00-20:00</b></span>
-           <span>Where<b>Premium venue, Singapore</b></span>
-           <span>Guests<b>10 active investors only</b></span>
-           <span>During<b>Milken Institute Asia Summit week</b></span>
-          </div>
-          <div className="ctas rv d3"><a className="btn gold" href="/#invite">Request an invitation <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a className="btn ghost" href="#schedule">See the schedule</a></div>
+        <p className="lead rv d2">Meet potential co-investors, discover deals and explore additional capital.</p>
+        <p className="lead rv d2" style={{marginTop:"12px"}}>Build new partnerships in a relaxed, private setting.</p>
+        <div className="c-stack">
+         <div className="c-facts rv d2">
+          <span>Time<b>5:00-8:00 PM</b></span>
+          <span>Guests<b>10 active investors</b></span>
+          <span>Venue<b>Premium venue</b></span>
+          <span>During<b>Milken Institute Asia Summit week</b></span>
          </div>
-         <div className="cd rv d3" data-count={CITY.utc}>
-          <div className="cd-c"><b>-</b><span>days</span></div><div className="cd-c"><b>-</b><span>hours</span></div><div className="cd-c"><b>-</b><span>min</span></div><div className="cd-c"><b>-</b><span>sec</span></div>
-         </div>
+         <div className="ctas rv d3"><a className="btn gold" href="/#invite">Request an invitation <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
         </div>
        </div>
       </section>
