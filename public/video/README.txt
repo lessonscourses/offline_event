@@ -1,4 +1,2 @@
-Hero video: "Buildings, City View, Marinabay" (Pixabay, free Pixabay Content License, no attribution required)
-https://pixabay.com/videos/buildings-city-view-marinabay-162741/
-Streams the light 1280px "tiny" rendition from the Pixabay CDN.
-Alternative light clip (day-to-night timelapse): https://cdn.pixabay.com/video/2025/04/02/269354_tiny.mp4
+Hero background: YouTube embed "The Marina Bay Sands In Singapore At Night" (Rp-yJu-coKY), muted autoplay loop via youtube-nocookie.com.
+Poster behind it: YouTube thumbnail. To switch back to a self-hosted file, replace the <iframe> in app/page.jsx with a <video>.

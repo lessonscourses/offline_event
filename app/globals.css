@@ -1126,3 +1126,6 @@ body{overflow-x:hidden}
 .other .o-arr{font-size:18px;color:var(--gold-d);align-self:center}
 .apply-card h2+p{margin-top:12px}
 .apply-card p+p{margin-top:8px}
+.c-hero .bg{overflow:hidden}
+.c-hero .yt-bg{position:absolute;top:50%;left:50%;width:max(100%,177.78vh);height:max(100%,56.25vw);transform:translate(-50%,-50%) scale(1.15);border:0;pointer-events:none;opacity:0;animation:ytIn .8s ease 1.6s forwards}
+@keyframes ytIn{to{opacity:1}}

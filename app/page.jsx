@@ -15,7 +15,7 @@ export default function Page() {
     <>
 
       <section className="c-hero" id="top">
-       <div className="bg" data-speed=".22"><video autoPlay muted loop playsInline preload="auto" poster="https://cdn.pixabay.com/video/2023/05/12/162741-826328393_tiny.jpg"><source src="https://cdn.pixabay.com/video/2023/05/12/162741-826328393_tiny.mp4" type="video/mp4" /></video></div>
+       <div className="bg" data-speed=".22" style={{backgroundImage:"url(https://i.ytimg.com/vi/Rp-yJu-coKY/maxresdefault.jpg)"}}><iframe className="yt-bg" src="https://www.youtube-nocookie.com/embed/Rp-yJu-coKY?autoplay=1&mute=1&loop=1&playlist=Rp-yJu-coKY&controls=0&modestbranding=1&playsinline=1&rel=0&disablekb=1&iv_load_policy=3&fs=0" title="Singapore at night" allow="autoplay; encrypted-media" tabIndex={-1} aria-hidden="true"></iframe></div>
        <div className="c-city" data-speed=".5" data-axis="x">SINGAPORE · SINGAPORE ·</div>
        <div className="wrap">
         <span className="kicker rv" style={{display:"block"}}>Singapore · 8 October 2026 · Investors only</span>

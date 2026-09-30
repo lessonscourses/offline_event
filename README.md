@@ -51,4 +51,4 @@ manager when they call. As soon as a page is live, put its URL in `data/links.js
 
 ## Hero video
 
-Pixabay "Buildings, City View, Marinabay" (free Pixabay Content License), light 1280px rendition streamed from the Pixabay CDN. See `public/video/README.txt`.
+YouTube embed (Rp-yJu-coKY, Marina Bay Sands at night), muted, looped, no controls, served from youtube-nocookie.com. See `public/video/README.txt`.
