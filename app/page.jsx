@@ -46,7 +46,7 @@ export default function Page() {
         <span className="kicker rv">Why this dinner</span>
         <h2 className="big rv d1" style={{marginTop:"16px"}}>10 investors. One private evening</h2>
         <p className="lead rv d2">Every guest is selected because they actively invest or allocate capital. No mixed audience, no service providers and no people coming to pitch.</p>
-        <p className="lead rv d2">During Milken Institute Asia Summit week, this is one focused evening to spend with peers, exchange perspectives, discuss deals and build relationships in a relaxed private setting.</p>
+        <p className="lead rv d2">During Milken Institute Asia Summit week, this is one focused evening to spend with peers, exchange perspectives, discuss deals and build partnerships in a relaxed private setting.</p>
         <p className="accent-line rv d3">No stage. No pitches. No brokers. No random networking.</p>
         <div className="pill-row rv d3"><span>Private Investors</span><span>Family Offices</span><span>CIOs</span><span>LPs / Allocators</span><span>Fund Partners</span><span>Institutional Investors</span></div>
        </div>
@@ -94,7 +94,7 @@ export default function Page() {
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap"><Quotes /></div></section>
 
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap">
-       <div className="row-head"><div className="sec-head rv"><span className="kicker">Next cities</span><h2 className="h2">Where Legends meets next</h2></div><a className="tlink rv" {...eventLink("calendar")}>View all cities <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+       <div className="row-head"><div className="sec-head rv"><span className="kicker">Next cities</span><h2 className="h2">Where legends meet next</h2></div><a className="tlink rv" {...eventLink("calendar")}>View all cities <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
        <div className="others"><a className="other rv" {...eventLink("dubai")}><div><b>Dubai</b><span className="o-date">14 October</span><small>During SuperReturn Middle East week</small></div><span className="o-arr">→</span></a><a className="other rv" {...eventLink("abu-dhabi")}><div><b>Abu Dhabi</b><span className="o-date">21 October</span><small>During Campden Congress week</small></div><span className="o-arr">→</span></a><a className="other rv" {...eventLink("riyadh")}><div><b>Riyadh</b><span className="o-date">28 October</span><small>During FII10 week</small></div><span className="o-arr">→</span></a></div>
       </div></section>
 
