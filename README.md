@@ -19,6 +19,6 @@ TODO: real schedule (current one is a draft), guest investor, venue, pricing, fo
 
 ## Singapore-specific
 
-- "Why Singapore" block: animated Dubai ⇄ Singapore corridor with live clocks for both cities.
+- "One network · many cities" block: animated flight arcs from all Legends cities into Singapore (`components/CityNetwork.jsx`, reusable with `current="<city>"`).
 - "Tables of the evening": four draft table themes (edit in `app/page.jsx`).
-- **The date (Thu 5 Nov 2026) is a placeholder** — update `data/cities.js` (entry `singapore`).
+- Date: Thursday, 8 October 2026, 18:30 SGT (`data/cities.js`, entry `singapore`). Next cities: San Francisco 15, London 22, Amsterdam 29 October.

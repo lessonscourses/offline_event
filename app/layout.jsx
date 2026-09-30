@@ -6,7 +6,7 @@ import Interactions from '@/components/Interactions';
 
 export const metadata = {
   title: 'Legends Investor Meeting — Singapore',
-  description: 'Curated offline evenings for investors in New York, San Francisco, London and Amsterdam.',
+  description: 'Legends Investor Meeting in Singapore — Thursday, 8 October 2026.',
 };
 
 export default function RootLayout({ children }) {

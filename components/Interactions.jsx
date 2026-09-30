@@ -28,6 +28,11 @@ function run(on, every) {
     if(bg)on(bg,'click',function(){var o=m.classList.toggle('open');document.body.style.overflow=o?'hidden':''});
     $$('.mnav a').forEach(function(a){on(a,'click',function(){m.classList.remove('open');document.body.style.overflow=''})});
 
+    /* mobile sticky CTA: only after the hero, hidden near the invite form */
+    var sticky=$('.m-sticky'),inv=$('#invite');
+    function stk(){if(!sticky)return;var r=inv?inv.getBoundingClientRect():null;var nearForm=r&&r.top<innerHeight&&r.bottom>0;sticky.classList.toggle('show',scrollY>innerHeight*.7&&!nearForm)}
+    on(window,'scroll',stk,{passive:true});stk();
+
     /* reveal */
     var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
     $$('.rv,.tour').forEach(function(el){io.observe(el)});

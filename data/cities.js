@@ -1,17 +1,6 @@
 // Legends Investor Meetings. utc = start time (18:30 local) in UTC for the countdown.
 export const CITIES = [
   {
-    "key": "new-york",
-    "city": "New York",
-    "short": "NYC",
-    "day": "08",
-    "dow": "Thu",
-    "date": "Thursday, 8 October 2026",
-    "tz": "America/New_York",
-    "utc": "2026-10-08T22:30:00Z",
-    "area": "Manhattan"
-  },
-  {
     "key": "san-francisco",
     "city": "San Francisco",
     "short": "SF",
@@ -48,11 +37,11 @@ export const CITIES = [
     "key": "singapore",
     "city": "Singapore",
     "short": "SG",
-    "day": "05",
+    "day": "08",
     "dow": "Thu",
-    "date": "Thursday, 5 November 2026",
+    "date": "Thursday, 8 October 2026",
     "tz": "Asia/Singapore",
-    "utc": "2026-11-05T10:30:00Z",
+    "utc": "2026-10-08T10:30:00Z",
     "area": "Singapore"
   }
-]; // TODO: Singapore date is a placeholder — confirm and update day/date/utc
+];

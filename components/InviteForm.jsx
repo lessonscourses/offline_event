@@ -19,7 +19,7 @@ export default function InviteForm({ city, single = false }) {
       <div className="field"><label htmlFor="i2">Email*</label><input id="i2" type="email" required placeholder="you@company.com" /></div>
       <div className="field"><label htmlFor="i3">LinkedIn*</label><input id="i3" required placeholder="linkedin.com/in/…" /></div>
       <div className="field"><label htmlFor="i4">You are*</label><select id="i4"><option>Angel investor</option><option>Family office</option><option>LP</option><option>Fund partner / GP</option><option>Corporate venture</option><option>Founder raising</option></select></div>
-      <div className="field full"><label htmlFor="i5">Who would you like to meet that evening?</label><textarea id="i5" placeholder="A co-investor in a sector, a lead htmlFor a round, founders at a stage, a market…"></textarea></div>
+      <div className="field full"><label htmlFor="i5">Who would you like to meet that evening?</label><textarea id="i5" placeholder="A co-investor in a sector, a lead for a round, founders at a stage, a market…"></textarea></div>
       </div><button className="btn gold" type="submit" style={{marginTop:"18px"}}>Request an invite <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
       <div className="done" id="fDone"><div className="ok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M5 12l5 5 9-10"/></svg></div>
       <h3 style={{fontSize:"30px",fontWeight:"700",letterSpacing:"-.04em"}}>Request received.</h3><p style={{color:"var(--ink-2)",marginTop:"10px"}}>We review every request personally and come back to you by email.</p>
