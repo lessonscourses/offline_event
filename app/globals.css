@@ -1144,3 +1144,8 @@ details p{max-width:680px}
 .c-stack{display:flex;flex-direction:column}
 @media (max-width:760px){.c-stack .ctas{order:-1;margin:26px 0 0}.c-stack .c-facts{margin-top:18px}.c-stack .ctas .btn{width:100%;justify-content:center}}
 .other small{color:var(--ink-2);font-size:14px}
+/* hero composition (desktop): content centred, big SINGAPORE sits above and only lightly overlaps the headline */
+@media (min-width:761px){
+  .c-hero{align-items:center;padding:100px 0 40px}
+  .c-city{top:clamp(80px,10vh,130px);font-size:clamp(120px,19vw,320px)}
+}
