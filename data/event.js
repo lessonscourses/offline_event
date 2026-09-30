@@ -7,7 +7,7 @@ const c = CITIES.find((x) => x.key === 'singapore');
 export const EVENT = {
   ...c,
   label: 'Legends Offline · Private investor dinner',
-  title: 'Legends Investor Meeting - Singapore',
+  title: 'Legends Investor Dinner - Singapore',
   timeLocal: '5:00 PM - 8:00 PM',
   // start/end in UTC (17:00-20:00 SGT)
   startUtc: '20261008T090000Z',
@@ -17,13 +17,15 @@ export const EVENT = {
   ics: '/legends-singapore.ics',
 };
 
+export const CAL_DESC = 'Private networking dinner for active investors.\nYour attendance is subject to confirmation by Legends.\nVenue details will be shared with confirmed guests.';
+
 export const googleCalendarUrl = () => {
   const q = new URLSearchParams({
     action: 'TEMPLATE',
     text: EVENT.title,
     dates: `${EVENT.startUtc}/${EVENT.endUtc}`,
-    details: 'A curated, investor-only evening. The venue address and final schedule are sent to confirmed guests by email.' + (EVENT.shareUrl ? ' ' + EVENT.shareUrl : ''),
-    location: 'Singapore (private venue - shared with confirmed guests)',
+    details: CAL_DESC,
+    location: 'Premium venue in Singapore (address shared with confirmed guests)',
   });
   return 'https://calendar.google.com/calendar/render?' + q.toString();
 };

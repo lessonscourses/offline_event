@@ -20,3 +20,13 @@ export const eventLink = (key) => {
   const url = key === 'calendar' ? SERIES_URL : CITY_URL[key];
   return url ? { href: url } : { href: '#soon', 'data-soon': key };
 };
+
+// WhatsApp of the Investor Success / Sales team that handles Singapore requests.
+// International format, digits only, e.g. '6591234567'. TODO: set the real number.
+export const WHATSAPP_NUMBER = '';
+
+// Analytics / CRM hook: pushes events to window.dataLayer (GTM) - wire these to the CRM.
+// Events: 'application_submitted', 'whatsapp_inbound'.
+export const track = (event, data = {}) => {
+  try { (window.dataLayer = window.dataLayer || []).push({ event, ...data }); } catch {}
+};

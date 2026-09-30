@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import './apply.css';
+import { track } from '@/data/links';
 
 // Apply form in the #invite section.
 // Prototype: no backend yet - any valid submit goes to /thank-you.
@@ -16,7 +17,8 @@ export default function ApplyForm({ idPrefix = 'af', autoFocus = false }) {
   const onSubmit = (e) => {
     e.preventDefault();
     const data = Object.fromEntries(new FormData(e.currentTarget));
-    try { sessionStorage.setItem('legends-apply', JSON.stringify({ name: data.name || '' })); } catch {}
+    try { sessionStorage.setItem('legends-apply', JSON.stringify({ name: (data.name || '').trim() })); } catch {}
+    track('application_submitted', { event_city: 'singapore', investor_profile: data.profile || '' });
     setSending(true);
     setTimeout(() => router.push('/thank-you'), 400);
   };

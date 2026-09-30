@@ -1,13 +1,15 @@
 import './thank-you.css';
 import ThanksHero from '@/components/thanks/ThanksHero';
 import NextSteps from '@/components/thanks/NextSteps';
+import WhatsAppCta from '@/components/thanks/WhatsAppCta';
 import EventCard from '@/components/thanks/EventCard';
 import HowItRuns from '@/components/thanks/HowItRuns';
-import InviteColleague from '@/components/thanks/InviteColleague';
-import LookInside from '@/components/thanks/LookInside';
+import ShareInvite from '@/components/thanks/ShareInvite';
+import DiscoverLegends from '@/components/thanks/DiscoverLegends';
 
-export const metadata = { title: 'Request received · Legends Investor Meeting Singapore', robots: { index: false } };
+export const metadata = { title: 'Request received · Legends Investor Dinner Singapore', robots: { index: false } };
 
+// Flow: request received -> next steps -> WhatsApp -> hold the date -> how it runs -> referral -> discover.
 export default function ThankYou() {
   return (
     <div className="ty">
@@ -15,12 +17,11 @@ export default function ThankYou() {
       <div className="ty-wrap">
         <ThanksHero />
         <NextSteps />
+        <WhatsAppCta />
         <EventCard />
         <HowItRuns />
-        <InviteColleague />
-        <LookInside />
-        <p className="ty-fine">A request does not guarantee a seat. Limited to 10 investors; the list locks 24 hours before. The venue is shared with confirmed guests only.</p>
-        <a className="ty-back" href="/">← Back to the Singapore page</a>
+        <ShareInvite />
+        <DiscoverLegends />
       </div>
     </div>
   );

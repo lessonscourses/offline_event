@@ -1134,7 +1134,7 @@ details p:not(:last-child){padding-bottom:10px}
 details p{max-width:680px}
 .sched-list p.sched-kick{margin-top:14px;font-weight:600;color:var(--gold-d)}
 .tbl::before{right:20px;top:20px;width:64px;height:64px;border:1px solid rgba(197,153,58,.28);background:rgba(197,153,58,.05);box-shadow:0 0 0 10px rgba(197,153,58,.035),0 0 0 20px rgba(197,153,58,.02)}
-.tbl-ic{position:absolute;right:36px;top:36px;width:32px;height:32px;object-fit:contain;z-index:1;opacity:.6;filter:saturate(.55)}
+.tbl-ic{position:absolute;right:41px;top:41px;width:22px;height:22px;object-fit:contain;z-index:1;opacity:.6;filter:saturate(.55)}
 .tbl-n{padding-right:78px;display:block}
 .head-wide{flex:1 1 100%}
 @media (min-width:900px){.h2-one{max-width:none;white-space:nowrap;font-size:min(64px,4.8vw,calc((min(100vw,var(--max)) - 2*var(--gut)) / 18.6))}}
