@@ -53,7 +53,7 @@ export default function SoonModal() {
           <>
             <h2 id="sm-title">The full calendar is on its way</h2>
             <p>More Legends gatherings are planned in the coming weeks. Their pages will open shortly.</p>
-            <ul className="sm-list">{others.map((c) => <li key={c.key}><b>{c.city}</b><span>{c.dow}, {Number(c.day)} Oct</span></li>)}</ul>
+            <ul className="sm-list">{others.map((c) => <li key={c.key}><b>{c.city}</b><span>{Number(c.day)} October</span></li>)}</ul>
             <p>Interested in one of them? Tell our manager when they contact you about Singapore - we will add you to the list.</p>
           </>
         )}
