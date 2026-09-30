@@ -1127,5 +1127,8 @@ body{overflow-x:hidden}
 .apply-card h2+p{margin-top:12px}
 .apply-card p+p{margin-top:8px}
 .c-hero .bg{overflow:hidden}
-.c-hero .yt-bg{position:absolute;top:50%;left:50%;width:max(100%,177.78vh);height:max(100%,56.25vw);transform:translate(-50%,-50%) scale(1.15);border:0;pointer-events:none;opacity:0;animation:ytIn .8s ease 1.6s forwards}
-@keyframes ytIn{to{opacity:1}}
+.c-hero .yt-bg{position:absolute;top:50%;left:50%;width:max(100%,177.78vh);height:max(100%,56.25vw);transform:translate(-50%,-50%) scale(1.2);pointer-events:none;opacity:0;transition:opacity 1s ease}
+.c-hero .yt-bg.on{opacity:1}
+.c-hero .yt-bg iframe,.c-hero .yt-bg>div{position:absolute;inset:0;width:100%;height:100%;border:0}
+details p:not(:last-child){padding-bottom:10px}
+details p{max-width:680px}

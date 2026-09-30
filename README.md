@@ -51,4 +51,4 @@ manager when they call. As soon as a page is live, put its URL in `data/links.js
 
 ## Hero video
 
-YouTube embed (Rp-yJu-coKY, Marina Bay Sands at night), muted, looped, no controls, served from youtube-nocookie.com. See `public/video/README.txt`.
+Drop your own cut as `public/video/singapore-hero.mp4`; until then a light Pixabay clip of Marina Bay is used. See `public/video/README.txt`.
