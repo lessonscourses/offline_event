@@ -1119,3 +1119,8 @@ body{overflow-x:hidden}
 .sched{row-gap:28px}
 .sched-note{grid-column:1/-1;margin-top:0}
 .sched-list p+p{margin-top:10px}
+.gal-sub{margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;font-size:17px;line-height:1.6;color:var(--ink-2)}
+@media (max-width:760px){.gal-sub{grid-template-columns:1fr;font-size:16px}}
+.other .o-date{display:block;margin-top:6px;font-size:15px;font-weight:600;color:var(--gold-d)}
+.other small{display:block;margin-top:4px}
+.other .o-arr{font-size:18px;color:var(--gold-d);align-self:center}
