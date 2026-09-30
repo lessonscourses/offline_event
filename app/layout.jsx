@@ -6,8 +6,8 @@ import Interactions from '@/components/Interactions';
 import SoonModal from '@/components/SoonModal';
 
 export const metadata = {
-  title: 'Legends Investor Meeting – Singapore',
-  description: 'Legends Offline · Q4 2026 – investor-only gathering in Singapore, Thursday 8 October 2026, during the Milken Institute Asia Summit week.',
+  title: 'Legends Investor Meeting - Singapore',
+  description: 'Legends Offline · Q4 2026 - investor-only gathering in Singapore, Thursday 8 October 2026, during the Milken Institute Asia Summit week.',
 };
 
 export default function RootLayout({ children }) {

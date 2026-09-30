@@ -1,5 +1,5 @@
 // Links to the other Legends landings.
-// Leave a value empty ('') while the page does not exist yet – the link then opens
+// Leave a value empty ('') while the page does not exist yet - the link then opens
 // a "coming soon" modal (components/SoonModal.jsx). Put the real URL in when the page is live.
 export const SERIES_URL = ''; // full Q4 calendar landing
 

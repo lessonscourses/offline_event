@@ -1,4 +1,4 @@
-// Legends Offline – Q4 2026 (internal plan name: "Legends 10") plan (28.09.2026): October gatherings. utc = local start (Singapore 17:15), for countdowns.
+// Legends Offline - Q4 2026 (internal plan name: "Legends 10") plan (28.09.2026): October gatherings. utc = local start (Singapore 17:15), for countdowns.
 export const CITIES = [
   {
     "key": "singapore",

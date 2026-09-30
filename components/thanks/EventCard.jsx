@@ -8,7 +8,7 @@ export default function EventCard() {
       <p className="ty-event-kicker"><b>Your meeting</b> · {EVENT.label} · Offline · Investors only</p>
       <p className="ty-event-title">{EVENT.title}</p>
       <div className="ty-event-date"><Cal /><span>{EVENT.date} · from 5:15 PM local</span></div>
-      <div className="ty-meta"><span><small>Where</small>Private venue – address after confirmation</span><span><small>Guests</small>8–10 investors</span></div>
+      <div className="ty-meta"><span><small>Where</small>Private venue - address after confirmation</span><span><small>Guests</small>8-10 investors</span></div>
       <p className="ty-hint">Hold the date (time is approximate):</p>
       <div className="ty-actions">
         <a className="ty-btn gold" href={googleCalendarUrl()} target="_blank" rel="noopener noreferrer"><Cal />Google Calendar</a>

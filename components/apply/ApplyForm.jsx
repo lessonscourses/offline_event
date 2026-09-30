@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import './apply.css';
 
 // Apply form in the #invite section.
-// Prototype: no backend yet – any valid submit goes to /thank-you.
+// Prototype: no backend yet - any valid submit goes to /thank-you.
 // TODO: send `data` to the CRM / API before redirecting.
 export default function ApplyForm({ idPrefix = 'af', autoFocus = false }) {
   const router = useRouter();

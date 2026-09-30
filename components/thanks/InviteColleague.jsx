@@ -6,7 +6,7 @@ export default function InviteColleague() {
   const [copied, setCopied] = useState(false);
   const [url, setUrl] = useState(EVENT.shareUrl);
   useEffect(() => { if (!EVENT.shareUrl) setUrl(window.location.origin); }, []);
-  const text = `Legends Investor Meeting in Singapore – ${EVENT.date}. A curated, investor-only evening. Request an invite: ${url}`;
+  const text = `Legends Investor Meeting in Singapore - ${EVENT.date}. A curated, investor-only evening. Request an invite: ${url}`;
   const copy = async () => {
     try { await navigator.clipboard.writeText(url); } catch {
       const ta = document.createElement('textarea'); ta.value = url; document.body.appendChild(ta); ta.select();
