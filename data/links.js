@@ -1,12 +1,22 @@
-// Each landing is deployed as its own project on its own domain.
-// Put the real domains here once they are connected.
-export const SERIES_URL = 'https://meetings.example.com'; // TODO: domain of the series landing
+// Links to the other Legends landings.
+// Leave a value empty ('') while the page does not exist yet — the link then opens
+// a "coming soon" modal (components/SoonModal.jsx). Put the real URL in when the page is live.
+export const SERIES_URL = ''; // full Q4 calendar landing
 
 export const CITY_URL = {
-  'singapore': 'https://singapore.example.com', // TODO
-  'dubai': 'https://dubai.example.com', // TODO
-  'abu-dhabi': 'https://abudhabi.example.com', // TODO
-  'riyadh': 'https://riyadh.example.com', // TODO
+  'singapore': '/',
+  'dubai': '',
+  'abu-dhabi': '',
+  'riyadh': '',
 };
 
-export const MAIN_URL = 'https://website-structure-production.up.railway.app';
+export const MAIN_URL = 'https://belegends.club';
+
+// Public URL of THIS landing (for share links and calendar). TODO: set once the domain is connected.
+export const SELF_URL = '';
+
+// Props for a link to another event: real href when available, otherwise opens the "coming soon" modal.
+export const eventLink = (key) => {
+  const url = key === 'calendar' ? SERIES_URL : CITY_URL[key];
+  return url ? { href: url } : { href: '#soon', 'data-soon': key };
+};

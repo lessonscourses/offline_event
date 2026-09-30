@@ -1,0 +1,20 @@
+/* ===== "Coming soon" modal for events without a page yet ===== */
+.sm{position:fixed;inset:0;z-index:210;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(33,29,22,.45);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);animation:smFade .25s ease}
+.sm-card{position:relative;width:min(100%,520px);max-height:calc(100dvh - 40px);overflow:auto;border-radius:30px;background:#fff;padding:clamp(24px,4vw,36px);box-shadow:0 40px 100px -30px rgba(33,29,22,.55);animation:smUp .35s cubic-bezier(.2,.8,.2,1)}
+.sm-close{position:absolute;right:16px;top:16px;width:40px;height:40px;border-radius:50%;border:1px solid rgba(197,153,58,.4);background:#fff;display:grid;place-items:center;cursor:pointer;color:var(--ink-2)}
+.sm-close svg{width:16px}
+.sm-kicker{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);padding:6px 12px;border-radius:999px;background:var(--gold-soft)}
+.sm-card h2{font-size:clamp(26px,3vw,32px);font-weight:700;letter-spacing:-.035em;line-height:1.1;margin:16px 44px 6px 0}
+.sm-date{font-weight:600;color:var(--ink-2);margin-bottom:14px}
+.sm-card p{font-size:15.5px;line-height:1.6;color:var(--ink-2)}
+.sm-card p+p{margin-top:10px}
+.sm-card p b{color:var(--ink)}
+.sm-list{list-style:none;display:grid;gap:6px;margin:14px 0}
+.sm-list li{display:flex;justify-content:space-between;padding:10px 14px;border-radius:14px;background:var(--cream);font-size:14.5px}
+.sm-list span{color:var(--ink-3)}
+.sm-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.sm-btn{min-height:48px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:#fff;font:600 14.5px var(--font);color:var(--ink);cursor:pointer}
+.sm-btn.gold{border:0;color:#0b0a09;background:linear-gradient(135deg,#d9b25e,#c5993a 55%,#a97e28)}
+@keyframes smFade{from{opacity:0}}
+@keyframes smUp{from{opacity:0;transform:translateY(18px) scale(.98)}}
+@media (max-width:640px){.sm{padding:0;align-items:flex-end}.sm-card{border-radius:28px 28px 0 0}.sm-btn{flex:1 1 100%}}

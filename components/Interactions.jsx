@@ -76,7 +76,5 @@ function run(on, every) {
       on(window,'keydown',function(e){if(!lb.classList.contains('open'))return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)})}
 
     /* invite form (prototype) */
-    var f=$('#inviteForm');if(f)on(f,'submit',function(e){e.preventDefault();$('#fBody').style.display='none';$('#fDone').classList.add('on')});
-    var back=$('#fBack');if(back)back.onclick=function(){$('#fBody').style.display='';$('#fDone').classList.remove('on')};
 
 }

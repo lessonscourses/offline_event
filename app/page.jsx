@@ -1,6 +1,6 @@
 import CityNetwork from '@/components/CityNetwork';
 import { CITIES } from '@/data/cities';
-import { SERIES_URL, CITY_URL } from '@/data/links';
+import { eventLink } from '@/data/links';
 import Faq from '@/components/Faq';
 import Gallery from '@/components/Gallery';
 import InviteForm from '@/components/InviteForm';
@@ -18,8 +18,8 @@ export default function Page() {
        <div className="bg" data-speed=".22"><video autoPlay muted loop playsInline poster="https://belegends.club/assets/site-loop-poster.jpg"><source src="https://belegends.club/assets/site-loop.webm" type="video/webm" /></video></div>
        <div className="c-city" data-speed=".5" data-axis="x">SINGAPORE · SINGAPORE ·</div>
        <div className="wrap">
-        <div className="crumbs rv" style={{color:"rgba(255,255,255,.6)"}}><a href={SERIES_URL}>Investor Meetings</a><span>/</span><span>Singapore</span></div>
-        <span className="kicker rv" style={{display:"block",marginTop:"22px"}}>Legends 10 · Q4 2026 · Gathering 01</span>
+        <div className="crumbs rv" style={{color:"rgba(255,255,255,.6)"}}><a {...eventLink("calendar")}>Investor Meetings</a><span>/</span><span>Singapore</span></div>
+        <span className="kicker rv" style={{display:"block",marginTop:"22px"}}>Legends Offline · Q4 2026 · Gathering 01 of 12</span>
         <h1 className="rv d1">Singapore.<br />An evening for investors.</h1>
         <p className="lead rv d2">The first of twelve Legends gatherings this quarter takes place in Singapore, during the week of the Milken Institute Asia Summit. One small evening for 8–10 strong investors — matched before you arrive, introduced only when both sides agree.</p>
         <div className="c-row">
@@ -31,7 +31,7 @@ export default function Page() {
            <span>Guests<b>8–10 investors</b></span>
            <span>In town for<b>Milken Asia Summit · 7–9 Oct</b></span>
           </div>
-          <div className="ctas rv d3"><a className="btn gold" href="#invite">Request an invite <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a className="btn ghost" href="#schedule">See the schedule</a></div>
+          <div className="ctas rv d3"><a className="btn gold" href="/#invite">Request an invite <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a className="btn ghost" href="#schedule">See the schedule</a></div>
          </div>
          <div className="cd rv d3" data-count={CITY.utc}>
           <div className="cd-c"><b>–</b><span>days</span></div><div className="cd-c"><b>–</b><span>hours</span></div><div className="cd-c"><b>–</b><span>min</span></div><div className="cd-c"><b>–</b><span>sec</span></div>
@@ -78,7 +78,7 @@ export default function Page() {
       <section className="sec" id="schedule" style={{paddingTop:"0"}}><div className="wrap sched">
        <div className="sticky-head sec-head rv"><span className="kicker">Schedule of the evening</span><h2 className="h2">Four hours, planned so nothing is left to chance.</h2>
        <p className="lead">Draft schedule — the final agenda and the guest investor are shared with confirmed attendees.</p>
-       <a className="btn gold" href="#invite" style={{alignSelf:"flex-start",marginTop:"10px"}}>Request an invite <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+       <a className="btn gold" href="/#invite" style={{alignSelf:"flex-start",marginTop:"10px"}}>Request an invite <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
        <div className="sched-list"><span className="prog"></span><ol><li className=""><time>18:30</time><div className="card"><span className="kicker">Arrival</span><h3>Welcome drinks and first introductions</h3><p>Name cards with your focus. The team introduces you to your first match within minutes.</p></div></li><li className=""><time>19:00</time><div className="card"><span className="kicker">Opening</span><h3>Why we are here</h3><p>A short welcome from the Legends team: who is in the venue tonight and how the evening works.</p></div></li><li className="key"><time>19:15</time><div className="card"><span className="kicker">Conversation</span><h3>Fireside with a guest investor</h3><p>One investor, one real decision — what they saw, what they did and what it cost. Guest announced to confirmed attendees.</p></div></li><li className=""><time>20:00</time><div className="card"><span className="kicker">Dinner</span><h3>Tables seated by thesis</h3><p>Dinner with investors who share your sector, stage or geography. A seat change between courses.</p></div></li><li className="key"><time>21:15</time><div className="card"><span className="kicker">Introductions</span><h3>Curated one-to-ones</h3><p>The team connects the pairs matched in advance — with a clear reason for each introduction.</p></div></li><li className=""><time>22:00</time><div className="card"><span className="kicker">Closed circle</span><h3>Late conversation</h3><p>A smaller circle for those who stay. Candid, off the record.</p></div></li><li className=""><time>22:30</time><div className="card"><span className="kicker">After</span><h3>Follow-ups continue online</h3><p>Next morning you get your introductions in writing, and matching continues in the network.</p></div></li></ol></div>
       </div></section>
 
@@ -105,11 +105,11 @@ export default function Page() {
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap"><Quotes /></div></section>
 
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap">
-       <div className="row-head"><div className="sec-head rv"><span className="kicker">Next in October</span><h2 className="h2">After Singapore</h2></div><a className="tlink rv" href={SERIES_URL + "#cities"}>All cities <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
-       <div className="others"><a className="other rv" href={CITY_URL["dubai"]}><div><b>Dubai</b><small>GCC private capital · SuperReturn Middle East week</small></div><span className="d">14 Oct<br />Wed</span></a><a className="other rv" href={CITY_URL["abu-dhabi"]}><div><b>Abu Dhabi</b><small>Family capital · Campden Congress week</small></div><span className="d">21 Oct<br />Wed</span></a><a className="other rv" href={CITY_URL["riyadh"]}><div><b>Riyadh</b><small>Saudi + global capital · FII10 week</small></div><span className="d">28 Oct<br />Wed</span></a></div>
+       <div className="row-head"><div className="sec-head rv"><span className="kicker">Next in October</span><h2 className="h2">After Singapore</h2></div><a className="tlink rv" {...eventLink("calendar")}>All cities <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+       <div className="others"><a className="other rv" {...eventLink("dubai")}><div><b>Dubai</b><small>GCC private capital · SuperReturn Middle East week</small></div><span className="d">14 Oct<br />Wed</span></a><a className="other rv" {...eventLink("abu-dhabi")}><div><b>Abu Dhabi</b><small>Family capital · Campden Congress week</small></div><span className="d">21 Oct<br />Wed</span></a><a className="other rv" {...eventLink("riyadh")}><div><b>Riyadh</b><small>Saudi + global capital · FII10 week</small></div><span className="d">28 Oct<br />Wed</span></a></div>
       </div></section>
 
-      <InviteForm single city="singapore" />
+      <InviteForm />
       <Faq />
 
     </>

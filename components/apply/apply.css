@@ -1,0 +1,22 @@
+/* ===== Apply form + modal ===== */
+.af{display:grid;gap:18px}
+.af-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.af-field{display:grid;gap:8px}
+.af-field label{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.af-field label b{color:var(--gold);font-weight:700}
+.af-field label em{font-style:normal;text-transform:none;letter-spacing:0;font-weight:500;color:var(--ink-3);margin-left:4px}
+.af-field input{width:100%;font:400 15px var(--font);color:var(--ink);background:#fff;border:1px solid rgba(197,153,58,.35);border-radius:14px;padding:14px 16px;outline:none;transition:border-color .2s,box-shadow .2s}
+.af-field input::placeholder{color:var(--ink-3)}
+.af-field input:focus{border-color:var(--gold);box-shadow:0 0 0 4px rgba(197,153,58,.14)}
+.af-check{display:flex;gap:12px;align-items:flex-start;font-size:14px;line-height:1.55;color:var(--ink-2);cursor:pointer}
+.af-check input{width:18px;height:18px;margin-top:2px;accent-color:var(--gold);flex:none}
+.af-check em{font-style:normal;color:var(--ink-3)}
+.af-submit{min-height:52px;border:0;border-radius:999px;cursor:pointer;font:600 15px var(--font);color:#0b0a09;background:linear-gradient(135deg,#d9b25e 0%,#c5993a 55%,#a97e28 100%);box-shadow:0 14px 30px -14px rgba(169,126,40,.7);transition:transform .2s,filter .2s}
+.af-submit:hover{transform:translateY(-1px);filter:brightness(1.04)}
+.af-submit:disabled{opacity:.7;cursor:wait}
+.af-legal{text-align:center;font-size:13px;color:var(--ink-3)}
+.af-legal a{color:var(--gold-d)}
+
+
+#invite{scroll-margin-top:90px}
+@media (max-width:640px){.af-row{grid-template-columns:1fr}}
