@@ -12,6 +12,7 @@ export const NODES = {
   riyadh: { name: 'Riyadh', lon: 46.7, lat: 24.7, lx: -36, ly: 5 },
   dubai: { name: 'Dubai', lon: 55.3, lat: 25.2, lx: 10, ly: -12 },
   'abu-dhabi': { name: 'Abu Dhabi', lon: 54.4, lat: 24.4, lx: 30, ly: 26 },
+  'hong-kong': { name: 'Hong Kong', lon: 114.17, lat: 22.3, lx: -30, ly: -10 },
   singapore: { name: 'Singapore', lon: 103.8, lat: 1.35, lx: 0, ly: 22 },
 };
 
