@@ -15,7 +15,7 @@ export default function Page() {
     <>
 
       <section className="c-hero" id="top">
-       <div className="bg" data-speed=".22"><video autoPlay muted loop playsInline poster="https://belegends.club/assets/site-loop-poster.jpg"><source src="https://belegends.club/assets/site-loop.webm" type="video/webm" /></video></div>
+       <div className="bg" data-speed=".22"><video autoPlay muted loop playsInline preload="auto" poster="https://cdn.pixabay.com/video/2023/05/12/162741-826328393_tiny.jpg"><source src="https://cdn.pixabay.com/video/2023/05/12/162741-826328393_tiny.mp4" type="video/mp4" /></video></div>
        <div className="c-city" data-speed=".5" data-axis="x">SINGAPORE · SINGAPORE ·</div>
        <div className="wrap">
         <div className="crumbs rv" style={{color:"rgba(255,255,255,.6)"}}><a {...eventLink("calendar")}>Investor Meetings</a><span>/</span><span>Singapore</span></div>

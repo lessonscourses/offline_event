@@ -48,3 +48,7 @@ ThanksHero (greets by first name) · NextSteps · EventCard (Google Calendar + `
 footer, "All cities", breadcrumb) open `components/SoonModal.jsx`: the event is being prepared, mention it to the
 manager when they call. As soon as a page is live, put its URL in `data/links.js` — links switch automatically.
 `SELF_URL` = public address of this landing (share link / calendar); empty → current site address.
+
+## Hero video
+
+Pixabay "Buildings, City View, Marinabay" (free Pixabay Content License), light 1280px rendition streamed from the Pixabay CDN. See `public/video/README.txt`.
