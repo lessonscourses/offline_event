@@ -8,13 +8,13 @@ export const WaIcon = () => (
 
 export default function WhatsAppCta() {
   const { full } = useApplicant();
-  const msg = `Hi, I’ve just submitted a request for the Legends Investor Dinner in Singapore on 8 October.\nMy name is ${full || '[your name]'}.\nI’d like to confirm my request and next steps.`;
+  const msg = `Hi, I’ve just submitted a request for the Legends Investor Dinner in Singapore on 8 October. My name is ${full || '[your name]'}.`;
   // wa.me opens the app on mobile and WhatsApp Web / the app chooser on desktop.
   const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
   return (
     <section className="ty-card ty-wa">
-      <h2 className="flush">Want to speed things up?</h2>
-      <p>Message our team on WhatsApp now. We’ll see your request faster and can confirm the next step directly with you.</p>
+      <h2 className="flush">Want a faster response?</h2>
+      <p>Message us directly on WhatsApp.</p>
       <a className="ty-wa-btn" href={href} target="_blank" rel="noopener noreferrer" onClick={() => track('whatsapp_inbound', { event_city: 'singapore' })}>
         <WaIcon />Message Legends on WhatsApp <span aria-hidden="true">→</span>
       </a>

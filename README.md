@@ -36,7 +36,7 @@ TODO: real schedule (current one is a draft), guest investor, venue, pricing, fo
 ## Thank-you page - `/thank-you`
 
 `app/thank-you/page.jsx`, blocks in `components/thanks/`:
-ThanksHero (first name, "under review") · NextSteps (3 steps) · WhatsAppCta (prefilled message to WHATSAPP_NUMBER in data/links.js) · EventCard (hold the date: Google + .ics) · HowItRuns · ShareInvite (WhatsApp + copy link) · DiscoverLegends.
+ThanksHero · NextSteps (3 steps) · WhatsAppCta (prefilled message to WHATSAPP_NUMBER in data/links.js) · EventCard (Google + .ics) · ShareInvite (WhatsApp + copy link).
 Tracking: data/links.js `track()` pushes `application_submitted` (form) and `whatsapp_inbound` (WhatsApp click) to window.dataLayer - wire these to the CRM. TODO: set WHATSAPP_NUMBER.
 
 - Event data for calendar links and share text: `data/event.js`.

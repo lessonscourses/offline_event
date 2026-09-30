@@ -81,3 +81,4 @@
 }
 @media (prefers-reduced-motion:reduce){.ty *{animation:none!important}}
 .ty-card>p.ty-kicker{color:var(--gold-d);font-size:12px;line-height:1.4}
+.ty-steps li{align-items:center}.ty-steps h3{padding-top:0}

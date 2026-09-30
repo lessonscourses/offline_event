@@ -18,7 +18,7 @@ export default function ShareInvite() {
   return (
     <section className="ty-card">
       <h2 className="flush">Know another investor who should be there?</h2>
-      <p>Share the invitation with an investor you believe would add value to the table.</p>
+      <p>Share the invitation with them.</p>
       <div className="ty-pair">
         <a className="ty-chip" href={'https://wa.me/?text=' + encodeURIComponent(text)} target="_blank" rel="noopener noreferrer"><WaIcon />Share via WhatsApp</a>
         <button type="button" className={'ty-chip' + (copied ? ' on' : '')} onClick={copy} aria-live="polite">{copied ? 'Copied ✓' : 'Copy invitation link'}</button>
