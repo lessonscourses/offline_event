@@ -54,12 +54,12 @@ export default function ApplyForm({ idPrefix = 'af', autoFocus = false }) {
       </div>
       <div className="af-field">
         <label htmlFor={id('focus')}>Investment focus <em>(optional)</em></label>
-        <input id={id('focus')} name="focus" type="text" placeholder="e.g. Growth equity, B2B software, Europe & Asia" />
+        <input id={id('focus')} name="focus" type="text" placeholder="e.g. B2B software, growth equity, Europe & Asia" />
       </div>
       <button className="af-submit" type="submit" disabled={sending}>
         {sending ? 'Sending…' : 'Request an invitation →'}
       </button>
-      <p className="af-note">Requests are reviewed individually. Submission does not guarantee a seat.</p>
+      <p className="af-note">Submission does not guarantee a seat.</p>
       <p className="af-legal">By submitting, you agree to our <a href="https://belegends.club/terms">Terms</a> &amp; <a href="https://belegends.club/privacy">Privacy</a>.</p>
     </form>
   );

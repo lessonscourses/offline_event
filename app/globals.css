@@ -1143,3 +1143,4 @@ details p{max-width:680px}
 @media (max-width:760px){.br-d{display:none}}
 .c-stack{display:flex;flex-direction:column}
 @media (max-width:760px){.c-stack .ctas{order:-1;margin:26px 0 0}.c-stack .c-facts{margin-top:18px}.c-stack .ctas .btn{width:100%;justify-content:center}}
+.other small{color:var(--ink-2);font-size:14px}
