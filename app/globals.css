@@ -1116,3 +1116,6 @@ body{overflow-x:hidden}
 .cor-text .lead+.lead{margin-top:12px}
 .cor-text .accent-line{margin-top:22px;display:inline-block;background:var(--gold);color:var(--ink)}
 .cor-text .lead{font-size:16px}
+.sched{row-gap:28px}
+.sched-note{grid-column:1/-1;margin-top:0}
+.sched-list p+p{margin-top:10px}
