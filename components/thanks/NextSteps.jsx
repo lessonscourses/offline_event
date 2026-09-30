@@ -1,5 +1,5 @@
 const STEPS = [
-  'We review your request.',
+  'We review your investor profile.',
   'If approved, we confirm your seat.',
   'Venue details are shared before the dinner.',
 ];

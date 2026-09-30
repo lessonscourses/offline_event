@@ -11,6 +11,8 @@ export const metadata = { title: 'Request received · Legends Investor Dinner Si
 export default function ThankYou() {
   return (
     <div className="ty">
+      {/* focused header on this page: logo + "Back to event" only */}
+      <style>{`.hdr .nav,.hdr .burger,.mnav{display:none!important}.hdr .hdr-act{margin-left:auto}.hdr .hdr-act .btn{display:inline-flex!important}`}</style>
       <div className="ty-glow" aria-hidden="true" />
       <div className="ty-wrap">
         <ThanksHero />
