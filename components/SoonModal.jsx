@@ -47,7 +47,7 @@ export default function SoonModal() {
             <h2 id="sm-title">{city.city} · {Number(city.day)} October</h2>
             <p className="sm-date">{city.date}</p>
             <p>This gathering is being prepared right now - its page will open shortly.</p>
-            <p>Would you like to be there too? Request an invite for Singapore, and when our manager contacts you, mention that you would also like to attend <b>{city.city}</b>. We will keep a place for you on the list.</p>
+            <p>Would you like to be there too? Request an invitation for Singapore, and when our manager contacts you, mention that you would also like to attend <b>{city.city}</b>. We will keep a place for you on the list.</p>
           </>
         ) : (
           <>
@@ -58,7 +58,7 @@ export default function SoonModal() {
           </>
         )}
         <div className="sm-actions">
-          <button type="button" className="sm-btn gold" onClick={apply}>Request an invite for Singapore</button>
+          <button type="button" className="sm-btn gold" onClick={apply}>Request an invitation for Singapore</button>
           <button type="button" className="sm-btn" onClick={close}>Close</button>
         </div>
       </div>

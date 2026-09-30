@@ -8,11 +8,11 @@ export const EVENT = {
   ...c,
   label: 'Legends Offline · Gathering 01 of 12',
   title: 'Legends Investor Meeting - Singapore',
-  timeLocal: '5:15 PM - 9:15 PM',
-  // start/end in UTC (17:15-21:15 SGT)
-  startUtc: '20261008T091500Z',
-  endUtc: '20261008T131500Z',
-  zones: [['5:15 PM', 'Singapore'], ['1:15 PM', 'Dubai'], ['10:15 AM', 'London']],
+  timeLocal: '5:00 PM - 8:00 PM',
+  // start/end in UTC (17:00-20:00 SGT)
+  startUtc: '20261008T090000Z',
+  endUtc: '20261008T120000Z',
+  zones: [['5:00 PM', 'Singapore'], ['1:00 PM', 'Dubai'], ['10:00 AM', 'London']],
   shareUrl: SELF_URL, // empty → the thank-you page uses the current site address
   ics: '/legends-singapore.ics',
 };
