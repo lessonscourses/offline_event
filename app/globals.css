@@ -929,7 +929,7 @@ body{overflow-x:hidden}
 .c-city{position:absolute;z-index:1;left:0;right:0;top:18%;white-space:nowrap;font-size:clamp(120px,21vw,340px);font-weight:700;letter-spacing:-.07em;line-height:.8;color:transparent;-webkit-text-stroke:1.5px rgba(212,173,90,.38);pointer-events:none}
 .c-hero .kicker{color:var(--gold-hi)}
 .c-hero h1{font-weight:700;font-size:clamp(44px,5.2vw,80px);line-height:.98;letter-spacing:-.05em;margin:18px 0 22px;max-width:1100px}
-.c-hero .lead{color:rgba(255,255,255,.78)}
+.c-hero .lead{color:rgba(255,255,255,.88);font-size:clamp(19.5px,1.61vw,23px);font-weight:500;line-height:1.5;max-width:740px}
 .c-facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
 .c-facts span{display:flex;flex-direction:column;padding:12px 18px;border-radius:18px;background:rgba(255,255,255,.1);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.14);font-size:12px;color:rgba(255,255,255,.65);line-height:1.35}
 .c-facts b{font-size:17px;color:#fff;font-weight:600}
