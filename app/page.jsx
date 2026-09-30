@@ -57,27 +57,20 @@ export default function Page() {
          <h2 className="h2">Fly in for the evening.</h2>
          <p className="lead">Legends meets in different cities through the year — Dubai, Singapore, San Francisco, London and Amsterdam. If you are in Singapore on the day, or can fly in, this is an evening built only for investors: no pitches, no vendors, no side programme.</p>
          <p className="lead" style={{marginTop:"14px"}}>Tell us what you invest in and who you want to meet. We set up your matches before you arrive.</p>
-         <div className="cor-clocks">
-          <span><small>Singapore</small><b data-tz="Asia/Singapore">--:--</b></span>
-          <span className="line"><i /></span>
-          <span><small>Dubai</small><b data-tz="Asia/Dubai">--:--</b></span>
-          <span className="sep" />
-          <span><small>London</small><b data-tz="Europe/London">--:--</b></span>
-         </div>
         </div>
         <div className="cor-map"><CityNetwork current="singapore" /></div>
        </div>
       </div></section>
 
-      {/* ===== Singapore: the four tables ===== */}
-      <section className="sec" id="tables" style={{paddingTop:"0"}}><div className="wrap">
-       <div className="row-head"><div className="sec-head rv"><span className="kicker">Tables of the evening</span><h2 className="h2">Four tables. You sit where your thesis is.</h2></div>
-       <p className="lead rv" style={{maxWidth:"400px",fontSize:"16px"}}>Draft themes — final tables are set from the guest list, so everyone sits with the people most relevant to them.</p></div>
+      {/* ===== Who will be there ===== */}
+      <section className="sec" id="guests" style={{paddingTop:"0"}}><div className="wrap">
+       <div className="row-head"><div className="sec-head rv"><span className="kicker">Who will be there</span><h2 className="h2">The people you can expect to meet.</h2></div>
+       <p className="lead rv" style={{maxWidth:"400px",fontSize:"16px"}}>Every guest is reviewed. Before the evening you get the names of the people we think you should meet, and why.</p></div>
        <div className="tables4">
-        <div className="tbl rv"><span className="tbl-n">Table 01</span><h3>Family offices & direct deals</h3><p>How family offices source, structure and share direct investments and co-investments.</p></div>
-        <div className="tbl rv d1"><span className="tbl-n">Table 02</span><h3>Funds & co-investment</h3><p>GPs, LPs and syndicate leads: allocations, leads for rounds and who to build with.</p></div>
-        <div className="tbl rv d2"><span className="tbl-n">Table 03</span><h3>Growth & fintech</h3><p>Companies scaling across markets — fintech, consumer and platforms.</p></div>
-        <div className="tbl rv d3"><span className="tbl-n">Table 04</span><h3>Deep tech & climate</h3><p>Longer-horizon bets — science, energy and infrastructure — and the patient capital behind them.</p></div>
+        <div className="tbl rv"><span className="tbl-n">Family offices</span><h3>Looking for direct deals and co-investors</h3><p>Principals and investment teams who invest their own capital and want trusted partners around a deal.</p></div>
+        <div className="tbl rv d1"><span className="tbl-n">Fund partners</span><h3>Looking for LPs, co-investors and deal flow</h3><p>GPs and partners of early-stage and growth funds who raise, lead and share allocations.</p></div>
+        <div className="tbl rv d2"><span className="tbl-n">Angels & syndicates</span><h3>Looking for the next company and a lead</h3><p>Active angels and syndicate leads who move early and bring others in.</p></div>
+        <div className="tbl rv d3"><span className="tbl-n">Corporate & invited founders</span><h3>Looking for strategic partners</h3><p>Corporate venture teams, and a small number of founders invited by members.</p></div>
        </div>
       </div></section>
 
@@ -85,7 +78,7 @@ export default function Page() {
        <div className="sticky-head sec-head rv"><span className="kicker">Schedule of the evening</span><h2 className="h2">Four hours, planned so nothing is left to chance.</h2>
        <p className="lead">Draft schedule — the final agenda and the guest investor are shared with confirmed attendees.</p>
        <a className="btn gold" href="#invite" style={{alignSelf:"flex-start",marginTop:"10px"}}>Request an invite <svg className="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
-       <div className="sched-list"><span className="prog"></span><ol><li className=""><time>18:30</time><div className="card"><span className="kicker">Arrival</span><h3>Welcome drinks and first introductions</h3><p>Name cards with your focus. The team introduces you to your first match within minutes.</p></div></li><li className=""><time>19:00</time><div className="card"><span className="kicker">Opening</span><h3>Why we are here</h3><p>A short welcome from the Legends team: who is in the venue tonight and how the evening works.</p></div></li><li className="key"><time>19:15</time><div className="card"><span className="kicker">Conversation</span><h3>Fireside with a guest investor</h3><p>One investor, one real decision — what they saw, what they did and what it cost. Guest announced to confirmed attendees.</p></div></li><li className=""><time>20:00</time><div className="card"><span className="kicker">Dinner</span><h3>Tables seated by thesis</h3><p>Dinner at tables set by focus — see the four tables above. A seat change between courses.</p></div></li><li className="key"><time>21:15</time><div className="card"><span className="kicker">Introductions</span><h3>Curated one-to-ones</h3><p>The team connects the pairs matched in advance — with a clear reason for each introduction.</p></div></li><li className=""><time>22:00</time><div className="card"><span className="kicker">Closed circle</span><h3>Late conversation</h3><p>A smaller circle for those who stay. Candid, off the record.</p></div></li><li className=""><time>22:30</time><div className="card"><span className="kicker">After</span><h3>Follow-ups continue online</h3><p>Next morning you get your introductions in writing, and matching continues in the network.</p></div></li></ol></div>
+       <div className="sched-list"><span className="prog"></span><ol><li className=""><time>18:30</time><div className="card"><span className="kicker">Arrival</span><h3>Welcome drinks and first introductions</h3><p>Name cards with your focus. The team introduces you to your first match within minutes.</p></div></li><li className=""><time>19:00</time><div className="card"><span className="kicker">Opening</span><h3>Why we are here</h3><p>A short welcome from the Legends team: who is in the venue tonight and how the evening works.</p></div></li><li className="key"><time>19:15</time><div className="card"><span className="kicker">Conversation</span><h3>Fireside with a guest investor</h3><p>One investor, one real decision — what they saw, what they did and what it cost. Guest announced to confirmed attendees.</p></div></li><li className=""><time>20:00</time><div className="card"><span className="kicker">Dinner</span><h3>Tables seated by thesis</h3><p>Dinner with investors who share your sector, stage or geography. A seat change between courses.</p></div></li><li className="key"><time>21:15</time><div className="card"><span className="kicker">Introductions</span><h3>Curated one-to-ones</h3><p>The team connects the pairs matched in advance — with a clear reason for each introduction.</p></div></li><li className=""><time>22:00</time><div className="card"><span className="kicker">Closed circle</span><h3>Late conversation</h3><p>A smaller circle for those who stay. Candid, off the record.</p></div></li><li className=""><time>22:30</time><div className="card"><span className="kicker">After</span><h3>Follow-ups continue online</h3><p>Next morning you get your introductions in writing, and matching continues in the network.</p></div></li></ol></div>
       </div></section>
 
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap">
