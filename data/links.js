@@ -7,6 +7,7 @@ export const CITY_URL = {
   'san-francisco': 'https://sanfrancisco.example.com', // TODO
   'london': 'https://london.example.com', // TODO
   'amsterdam': 'https://amsterdam.example.com', // TODO
+  'singapore': 'https://singapore.example.com', // TODO
 };
 
 export const MAIN_URL = 'https://website-structure-production.up.railway.app';

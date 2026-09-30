@@ -5,7 +5,7 @@ import StickyCta from '@/components/StickyCta';
 import Interactions from '@/components/Interactions';
 
 export const metadata = {
-  title: 'Legends Investor Meeting — New York',
+  title: 'Legends Investor Meeting — Singapore',
   description: 'Curated offline evenings for investors in New York, San Francisco, London and Amsterdam.',
 };
 
