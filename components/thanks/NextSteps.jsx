@@ -1,7 +1,7 @@
 const STEPS = [
   'Within 24 hours, a manager contacts you to confirm your request.',
   'We confirm your seat and ask who you want to meet.',
-  'Before the evening: the venue address, schedule and your matches.',
+  'Before the evening: the venue address, schedule details and final confirmation.',
 ];
 
 export default function NextSteps() {

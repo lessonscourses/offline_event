@@ -36,8 +36,8 @@ export default function ApplyForm({ idPrefix = 'af', autoFocus = false }) {
         </div>
       </div>
       <div className="af-field">
-        <label htmlFor={id('linkedin')}>LinkedIn URL <em>(optional)</em></label>
-        <input id={id('linkedin')} name="linkedin" type="url" placeholder="https://linkedin.com/in/…" />
+        <label htmlFor={id('linkedin')}>LinkedIn URL <b>*</b></label>
+        <input id={id('linkedin')} name="linkedin" type="url" required placeholder="https://linkedin.com/in/…" />
       </div>
       <label className="af-check">
         <input type="checkbox" name="consent" />

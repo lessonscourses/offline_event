@@ -29,7 +29,7 @@ TODO: real schedule (current one is a draft), guest investor, venue, pricing, fo
 
 - Every "Request an invite" button (header, hero, schedule, sticky mobile bar) is an anchor to the form section `/#invite`.
 - The form: `components/apply/ApplyForm.jsx` (inside `components/InviteForm.jsx`).
-  Fields: full name*, email*, phone*, LinkedIn (optional), consent (optional).
+  Fields: full name*, email*, phone*, LinkedIn*, consent (optional).
 - On submit the form goes to **`/thank-you`** (no backend yet). TODO: send the data to the CRM/API in `onSubmit` before `router.push`.
 - Styles: `components/apply/apply.css` (form), `app/thank-you/thank-you.css` (thank-you page).
 
