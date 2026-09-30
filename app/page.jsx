@@ -36,7 +36,7 @@ export default function Page() {
        <div>
         <span className="kicker rv">Why this dinner</span>
         <h2 className="big rv d1" style={{marginTop:"16px"}}>10 investors. Nothing extra</h2>
-        <p className="lead rv d2">A private dinner for active investors only - a focused way to meet peers and have useful conversations.</p>
+        <p className="lead rv d2">A private dinner for active investors to meet peers and have useful conversations.</p>
         <p className="accent-line rv d3">No stage. No pitches. No brokers. No random networking.</p>
        </div>
       </div></section>
@@ -48,7 +48,6 @@ export default function Page() {
          <span className="kicker">One network · many cities</span>
          <h2 className="h2">Fly in for the evening</h2>
          <p className="lead">Legends hosts investor dinners across key global investment hubs - from Singapore and Dubai to London, New York and Palm Beach.</p>
-         <p className="accent-line">10 investors. One table. One evening.</p>
         </div>
         <div className="cor-map"><CityNetwork current="singapore" /></div>
        </div>
@@ -56,15 +55,13 @@ export default function Page() {
 
       {/* ===== Who will be there ===== */}
       <section className="sec" id="guests" style={{paddingTop:"0"}}><div className="wrap">
-       <div className="row-head"><div className="sec-head rv head-wide"><span className="kicker">Who will be there</span><h2 className="h2 h2-one">The people around the table</h2></div>
-       <p className="lead rv" style={{maxWidth:"440px",fontSize:"16px"}}>Private investors, Family Offices, CIOs, LPs, fund partners and institutional allocators.</p></div>
+       <div className="row-head"><div className="sec-head rv head-wide"><span className="kicker">Who will be there</span><h2 className="h2 h2-one">The people around the table</h2></div></div>
        <div className="tables4">
-        <div className="tbl rv"><img className="tbl-ic" src="/icons/family-office.png" alt="" /><span className="tbl-n" style={{textTransform:"none"}}>FAMILY OFFICES</span><h3>Principals & investment teams</h3><p>Investing family capital across direct deals, funds and private markets.</p></div>
-        <div className="tbl rv d1"><img className="tbl-ic" src="/icons/institutions.png" alt="" /><span className="tbl-n" style={{textTransform:"none"}}>CIOs & INSTITUTIONS</span><h3>Capital allocators</h3><p>Senior investment professionals responsible for institutional capital.</p></div>
-        <div className="tbl rv d2"><img className="tbl-ic" src="/icons/fund-lp.png" alt="" /><span className="tbl-n" style={{textTransform:"none"}}>FUND PARTNERS & LPs</span><h3>GPs & allocators</h3><p>Fund partners deploying capital and LPs allocating to managers and private markets.</p></div>
-        <div className="tbl rv d3"><img className="tbl-ic" src="/icons/private.png" alt="" /><span className="tbl-n" style={{textTransform:"none"}}>PRIVATE INVESTORS</span><h3>Investing their own capital</h3><p>Active private investors and investor-operators making direct investment decisions.</p></div>
+        <div className="tbl rv"><img className="tbl-ic" src="/icons/family-office.png" alt="" /><span className="tbl-n" style={{textTransform:"none"}}>FAMILY OFFICES</span><h3>Principals & investment teams</h3><p>Direct deals, funds and private markets.</p></div>
+        <div className="tbl rv d1"><img className="tbl-ic" src="/icons/institutions.png" alt="" /><span className="tbl-n" style={{textTransform:"none"}}>CIOs & INSTITUTIONS</span><h3>Capital allocators</h3><p>Senior professionals allocating institutional capital.</p></div>
+        <div className="tbl rv d2"><img className="tbl-ic" src="/icons/fund-lp.png" alt="" /><span className="tbl-n" style={{textTransform:"none"}}>FUND PARTNERS & LPs</span><h3>GPs & allocators</h3><p>GPs deploying capital and LPs backing managers and private markets.</p></div>
+        <div className="tbl rv d3"><img className="tbl-ic" src="/icons/private.png" alt="" /><span className="tbl-n" style={{textTransform:"none"}}>PRIVATE INVESTORS</span><h3>Investing their own capital</h3><p>Active investors making direct investment decisions.</p></div>
        </div>
-       <p className="guests-note rv">No founders. No brokers. No service providers. Investors only.</p>
       </div></section>
 
       <section className="sec" id="schedule" style={{paddingTop:"0"}}><div className="wrap sched">
