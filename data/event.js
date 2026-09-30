@@ -1,4 +1,4 @@
-// The Singapore gathering — used by the apply form, the thank-you page and calendar links.
+// The Singapore gathering – used by the apply form, the thank-you page and calendar links.
 import { CITIES } from './cities';
 import { SELF_URL } from './links';
 
@@ -7,7 +7,7 @@ const c = CITIES.find((x) => x.key === 'singapore');
 export const EVENT = {
   ...c,
   label: 'Legends Offline · Gathering 01 of 12',
-  title: 'Legends Investor Meeting — Singapore',
+  title: 'Legends Investor Meeting – Singapore',
   timeLocal: '6:30 PM – 10:30 PM',
   // start/end in UTC (18:30–22:30 SGT)
   startUtc: '20261008T103000Z',
@@ -23,7 +23,7 @@ export const googleCalendarUrl = () => {
     text: EVENT.title,
     dates: `${EVENT.startUtc}/${EVENT.endUtc}`,
     details: 'A curated, investor-only evening. The venue address and final schedule are sent to confirmed guests by email.' + (EVENT.shareUrl ? ' ' + EVENT.shareUrl : ''),
-    location: 'Singapore (private venue — shared with confirmed guests)',
+    location: 'Singapore (private venue – shared with confirmed guests)',
   });
   return 'https://calendar.google.com/calendar/render?' + q.toString();
 };

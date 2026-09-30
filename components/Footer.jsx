@@ -8,7 +8,7 @@ export default function Footer() {
     <footer><div className="wrap"><div className="foot">
       <div>
         <a className="brand" href="/"><img src="/brand/symbol.png" alt="" /><span><b>LEGENDS</b><small>PRIVATE INVESTOR NETWORK</small></span></a>
-        <p className="foot-about">A private network for decision-makers — curated introductions, private events, and a trusted circle.</p>
+        <p className="foot-about">A private network for decision-makers – curated introductions, private events, and a trusted circle.</p>
       </div>
       <div><h4>October</h4><ul>
         <li><a href="/">Singapore · 8 Oct</a></li>

@@ -46,7 +46,7 @@ export default function SoonModal() {
           <>
             <h2 id="sm-title">{city.city} · {Number(city.day)} October</h2>
             <p className="sm-date">{city.date}</p>
-            <p>This gathering is being prepared right now — its page will open shortly.</p>
+            <p>This gathering is being prepared right now – its page will open shortly.</p>
             <p>Would you like to be there too? Request an invite for Singapore, and when our manager contacts you, mention that you would also like to attend <b>{city.city}</b>. We will keep a place for you on the list.</p>
           </>
         ) : (
@@ -54,7 +54,7 @@ export default function SoonModal() {
             <h2 id="sm-title">The full calendar is on its way</h2>
             <p>More Legends gatherings are planned in the coming weeks. Their pages will open shortly.</p>
             <ul className="sm-list">{others.map((c) => <li key={c.key}><b>{c.city}</b><span>{c.dow}, {Number(c.day)} Oct</span></li>)}</ul>
-            <p>Interested in one of them? Tell our manager when they contact you about Singapore — we will add you to the list.</p>
+            <p>Interested in one of them? Tell our manager when they contact you about Singapore – we will add you to the list.</p>
           </>
         )}
         <div className="sm-actions">
