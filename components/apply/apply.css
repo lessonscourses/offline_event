@@ -5,9 +5,9 @@
 .af-field label{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .af-field label b{color:var(--gold);font-weight:700}
 .af-field label em{font-style:normal;text-transform:none;letter-spacing:0;font-weight:500;color:var(--ink-3);margin-left:4px}
-.af-field input{width:100%;font:400 15px var(--font);color:var(--ink);background:#fff;border:1px solid rgba(197,153,58,.35);border-radius:14px;padding:14px 16px;outline:none;transition:border-color .2s,box-shadow .2s}
-.af-field input::placeholder{color:var(--ink-3)}
-.af-field input:focus{border-color:var(--gold);box-shadow:0 0 0 4px rgba(197,153,58,.14)}
+.af-field input,.af-field select,.af-field textarea{width:100%;font:400 15px var(--font);color:var(--ink);background:#fff;border:1px solid rgba(197,153,58,.35);border-radius:14px;padding:14px 16px;outline:none;transition:border-color .2s,box-shadow .2s}
+.af-field input::placeholder,.af-field textarea::placeholder{color:var(--ink-3)}
+.af-field input:focus,.af-field select:focus,.af-field textarea:focus{border-color:var(--gold);box-shadow:0 0 0 4px rgba(197,153,58,.14)}
 .af-check{display:flex;gap:12px;align-items:flex-start;font-size:14px;line-height:1.55;color:var(--ink-2);cursor:pointer}
 .af-check input{width:18px;height:18px;margin-top:2px;accent-color:var(--gold);flex:none}
 .af-check em{font-style:normal;color:var(--ink-3)}
@@ -20,3 +20,10 @@
 
 #invite{scroll-margin-top:90px}
 @media (max-width:640px){.af-row{grid-template-columns:1fr}}
+.af-field select{appearance:none;-webkit-appearance:none;cursor:pointer;padding-right:42px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a97e28' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 16px center/16px}
+.af-field select:invalid{color:var(--ink-3)}
+.af-field textarea{resize:vertical;min-height:64px;line-height:1.5}
+.af-hint{font-size:13px;line-height:1.45;color:var(--ink-3);margin-top:-2px}
+.af-field select:has(option[value=""]:checked){color:var(--ink-3)}
+.af-row{align-items:end}
+.af-note{text-align:center;font-size:14px;font-weight:500;color:var(--ink-2);margin-bottom:-6px}
