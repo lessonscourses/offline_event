@@ -1124,3 +1124,5 @@ body{overflow-x:hidden}
 .other .o-date{display:block;margin-top:6px;font-size:15px;font-weight:600;color:var(--gold-d)}
 .other small{display:block;margin-top:4px}
 .other .o-arr{font-size:18px;color:var(--gold-d);align-self:center}
+.apply-card h2+p{margin-top:12px}
+.apply-card p+p{margin-top:8px}
