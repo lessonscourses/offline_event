@@ -6,12 +6,12 @@ const px = (lon, lat) => [((lon - LON0) / (LON1 - LON0)) * W, ((LAT0 - lat) / (L
 
 export const NODES = {
   'new-york': { name: 'New York', lon: -74, lat: 40.7, lx: -8, ly: 22 },
-  'palm-beach': { name: 'Palm Beach', lon: -80.0, lat: 26.7, lx: 0, ly: 22 },
+  'palm-beach': { name: 'Palm Beach', lon: -80.0, lat: 26.7, lx: 18, ly: 22 },
   london: { name: 'London', lon: -0.1, lat: 51.5, lx: -26, ly: -10 },
   zurich: { name: 'Zurich', lon: 8.5, lat: 47.4, lx: 24, ly: 18 },
-  riyadh: { name: 'Riyadh', lon: 46.7, lat: 24.7, lx: -24, ly: 22 },
+  riyadh: { name: 'Riyadh', lon: 46.7, lat: 24.7, lx: -36, ly: 5 },
   dubai: { name: 'Dubai', lon: 55.3, lat: 25.2, lx: 10, ly: -12 },
-  'abu-dhabi': { name: 'Abu Dhabi', lon: 54.4, lat: 24.4, lx: 22, ly: 24 },
+  'abu-dhabi': { name: 'Abu Dhabi', lon: 54.4, lat: 24.4, lx: 30, ly: 26 },
   singapore: { name: 'Singapore', lon: 103.8, lat: 1.35, lx: 0, ly: 22 },
 };
 

@@ -6,7 +6,7 @@ const c = CITIES.find((x) => x.key === 'singapore');
 
 export const EVENT = {
   ...c,
-  label: 'Legends Offline · Gathering 01 of 12',
+  label: 'Legends Offline · Private investor dinner',
   title: 'Legends Investor Meeting - Singapore',
   timeLocal: '5:00 PM - 8:00 PM',
   // start/end in UTC (17:00-20:00 SGT)

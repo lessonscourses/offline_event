@@ -9,7 +9,7 @@ export default function LookInside() {
       <p>What Legends is, and what members see after the invitation.</p>
       <a className="ty-films" href="https://belegends.club/preview/">
         <span className="ty-film"><span className="ty-play"><Play /></span><span><small>Film one</small><b>What Legends is</b><em>Our founder on why the club exists.</em></span></span>
-        <span className="ty-film"><span className="ty-play"><Play /></span><span><small>Film two</small><b>Inside the platform</b><em>Events, opportunities and the matching behind them.</em></span></span>
+        <span className="ty-film"><span className="ty-play"><Play /></span><span><small>Film two</small><b>Inside the platform</b><em>Events, opportunities and the people behind them.</em></span></span>
       </a>
       <div className="ty-links"><a href={MAIN_URL + '/events'}>Upcoming events</a><a href={MAIN_URL + '/blog'}>Read the blog</a></div>
     </section>
