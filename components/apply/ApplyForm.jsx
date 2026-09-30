@@ -8,7 +8,6 @@ import { track } from '@/data/links';
 // Prototype: no backend yet - any valid submit goes to /thank-you.
 // TODO: send `data` to the CRM / API before redirecting.
 const PROFILES = ['Private Investor', 'Family Office', 'Fund / GP', 'LP / Allocator', 'Institutional Investor', 'Other'];
-const SIZES = ['Under $100K', '$100K-500K', '$500K-1M', '$1M-5M', '$5M-10M', '$10M+', 'Varies by opportunity'];
 
 export default function ApplyForm({ idPrefix = 'af', autoFocus = false }) {
   const router = useRouter();
@@ -32,12 +31,12 @@ export default function ApplyForm({ idPrefix = 'af', autoFocus = false }) {
       </div>
       <div className="af-row">
         <div className="af-field">
-          <label htmlFor={id('email')}>Work email <b>*</b></label>
-          <input id={id('email')} name="email" type="email" required placeholder="you@company.com" autoComplete="email" />
-        </div>
-        <div className="af-field">
           <label htmlFor={id('phone')}>WhatsApp / mobile <b>*</b></label>
           <input id={id('phone')} name="phone" type="tel" required placeholder="+65 ..." autoComplete="tel" />
+        </div>
+        <div className="af-field">
+          <label htmlFor={id('email')}>Work email <b>*</b></label>
+          <input id={id('email')} name="email" type="email" required placeholder="you@company.com" autoComplete="email" />
         </div>
       </div>
       <div className="af-row">
@@ -54,21 +53,8 @@ export default function ApplyForm({ idPrefix = 'af', autoFocus = false }) {
         </div>
       </div>
       <div className="af-field">
-        <label htmlFor={id('focus')}>Investment focus <b>*</b></label>
-        <span className="af-hint">Briefly describe the sectors, stages, geographies or asset classes you actively invest in.</span>
-        <textarea id={id('focus')} name="focus" required rows={2} placeholder="e.g. B2B software, growth stage, Europe & Asia" />
-      </div>
-      <div className="af-field">
-        <label htmlFor={id('size')}>Typical investment / allocation size</label>
-        <select id={id('size')} name="size" defaultValue="">
-          <option value="">Select range</option>
-          {SIZES.map((o) => <option key={o}>{o}</option>)}
-        </select>
-      </div>
-      <div className="af-field">
-        <label htmlFor={id('value')}>What would make this evening valuable for you? <b>*</b></label>
-        <span className="af-hint">A conversation, perspective, opportunity or type of investor you would value meeting.</span>
-        <textarea id={id('value')} name="value" required rows={2} placeholder="A few words are enough" />
+        <label htmlFor={id('focus')}>Investment focus <em>(optional)</em></label>
+        <input id={id('focus')} name="focus" type="text" placeholder="e.g. Growth equity, B2B software, Europe & Asia" />
       </div>
       <button className="af-submit" type="submit" disabled={sending}>
         {sending ? 'Sending…' : 'Request an invitation →'}
