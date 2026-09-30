@@ -52,4 +52,4 @@ manager when they call. As soon as a page is live, put its URL in `data/links.js
 
 ## Hero video
 
-Drop your own cut as `public/video/singapore-hero.mp4`; until then a light Pixabay clip of Marina Bay is used. See `public/video/README.txt`.
+`public/video/singapore-hero.mp4` (self-hosted, 4.7 MB) with poster `singapore-hero.jpg`. Replace the file to change it. See `public/video/README.txt`.
